@@ -1,0 +1,67 @@
+<!-- app/templates/base.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}MyStore{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <a class="nav-brand" href="{{ url_for('store.index') }}">My<span>Store</span></a>
+
+    <div class="nav-search">
+      <form action="{{ url_for('store.index') }}" method="get">
+        <input
+          type="search"
+          name="q"
+          placeholder="Search products, brands…"
+          value="{{ request.args.get('q', '') }}"
+          aria-label="Search products"
+        >
+        <button type="submit">Search</button>
+      </form>
+    </div>
+
+    <div class="nav-links">
+      <a class="btn-cart" href="{{ url_for('cart.view_cart') }}">
+        Cart&nbsp;({{ cart_count }})
+      </a>
+      {% if current_user.is_authenticated %}
+        <a href="{{ url_for('orders.order_history') }}">My Orders</a>
+        {% if current_user.is_admin %}
+          <a href="{{ url_for('admin.dashboard') }}">Admin</a>
+        {% endif %}
+        <a href="{{ url_for('auth.logout') }}">Logout</a>
+      {% else %}
+        <a href="{{ url_for('auth.login') }}">Login</a>
+        <a href="{{ url_for('auth.register') }}">Register</a>
+      {% endif %}
+    </div>
+  </nav>
+
+  <!-- Flash messages -->
+  {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+      <div class="flash-container">
+        {% for category, message in messages %}
+          <p class="flash {{ category }}">{{ message }}</p>
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endwith %}
+
+  <!-- Page content -->
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MyStore. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

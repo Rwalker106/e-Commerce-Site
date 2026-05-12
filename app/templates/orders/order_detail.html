@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+{% block title %}Order #{{ order.id }} — MyStore{% endblock %}
+
+{% block content %}
+
+  <div class="page-header">
+    <h1>Order #{{ order.id }}</h1>
+  </div>
+
+  <div class="checkout-layout">
+
+    <!-- Items + totals -->
+    <div class="flex-col">
+      <div class="card">
+        <div class="card-section">
+          <p class="card-title">Items</p>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Product</th>
+                <th>Unit Price</th>
+                <th>Qty</th>
+                <th class="text-right">Line Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for item in order.items %}
+                <tr>
+                  <td>{{ item.product_name }}</td>
+                  <td>${{ '%.2f' % (item.unit_price / 100) }}</td>
+                  <td>{{ item.quantity }}</td>
+                  <td class="text-right">${{ '%.2f' % (item.line_total / 100) }}</td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+        <div class="card-section">
+          <div class="total-row grand">
+            <span>Total</span>
+            <span>${{ '%.2f' % (order.total / 100) }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Info sidebar -->
+    <div class="flex-col">
+      <div class="card">
+        <div class="card-section">
+          <p class="card-title">Order Info</p>
+          <div class="info-list">
+            <div class="info-row">
+              <span class="info-key">Date</span>
+              <span class="info-val">{{ order.created_at.strftime('%B %d, %Y at %I:%M %p') }}</span>
+            </div>
+            <div class="info-row">
+              <span class="info-key">Status</span>
+              <span class="status-badge status-{{ order.status }}">{{ order.status | capitalize }}</span>
+            </div>
+            <div class="info-row">
+              <span class="info-key">Payment ref</span>
+              <span class="info-val text-muted">{{ order.strip_payment_intent_id or '—' }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {% if order.shipping_name %}
+        <div class="card">
+          <div class="card-section">
+            <p class="card-title">Shipping Address</p>
+            <div class="info-list">
+              <div class="info-row">
+                <span class="info-key">Name</span>
+                <span class="info-val">{{ order.shipping_name }}</span>
+              </div>
+              <div class="info-row">
+                <span class="info-key">Address</span>
+                <span class="info-val">{{ order.shipping_address }}</span>
+              </div>
+              <div class="info-row">
+                <span class="info-key">City</span>
+                <span class="info-val">{{ order.shipping_city }}, {{ order.shipping_state }} {{ order.shipping_zip }}</span>
+              </div>
+              <div class="info-row">
+                <span class="info-key">Country</span>
+                <span class="info-val">{{ order.shipping_country }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    </div>
+
+  </div>
+
+  <a class="link-back" href="{{ url_for('orders.order_history') }}">&larr; Back to orders</a>
+
+{% endblock %}

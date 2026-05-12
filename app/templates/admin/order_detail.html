@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+{% block title %}Order #{{ order.id }} — Admin{% endblock %}
+
+{% block content %}
+
+  <div class="page-header">
+    <h1>Order #{{ order.id }}</h1>
+  </div>
+
+  <div class="checkout-layout">
+
+    <!-- Items + totals -->
+    <div class="flex-col">
+      <div class="card">
+        <div class="card-section">
+          <p class="card-title">Items</p>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Product</th>
+                <th>SKU</th>
+                <th>Unit Price</th>
+                <th>Qty</th>
+                <th class="text-right">Line Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for item in order.items %}
+                <tr>
+                  <td>{{ item.product_name }}</td>
+                  <td class="text-muted">{{ item.product_sku or '—' }}</td>
+                  <td>${{ '%.2f' % (item.unit_price / 100) }}</td>
+                  <td>{{ item.quantity }}</td>
+                  <td class="text-right">${{ '%.2f' % (item.line_total / 100) }}</td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+        <div class="card-section">
+          <div class="total-row grand">
+            <span>Total</span>
+            <span>${{ '%.2f' % (order.total / 100) }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="flex-col">
+
+      <div class="card">
+        <div class="card-section">
+          <p class="card-title">Order Info</p>
+          <div class="info-list">
+            <div class="info-row">
+              <span class="info-key">Date</span>
+              <span class="info-val">{{ order.created_at.strftime('%B %d, %Y') }}</span>
+            </div>
+            <div class="info-row">
+              <span class="info-key">Customer</span>
+              <span class="info-val">{{ order.shipping_email or 'Guest' }}</span>
+            </div>
+            <div class="info-row">
+              <span class="info-key">Stripe ref</span>
+              <span class="info-val text-muted">{{ order.stripe_payment_intent_id or '—' }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-section">
+          <p class="card-title">Update Status</p>
+          <form method="POST"
+                action="{{ url_for('admin.update_order_status', order_id=order.id) }}">
+            <div class="form-group">
+              <label for="status">Status</label>
+              <select class="form-control" id="status" name="status">
+                {% for s in ['pending', 'paid', 'shipped', 'delivered', 'refunded', 'failed'] %}
+                  <option value="{{ s }}" {{ 'selected' if order.status == s else '' }}>
+                    {{ s | capitalize }}
+                  </option>
+                {% endfor %}
+              </select>
+            </div>
+            <button class="btn btn-primary btn-full" type="submit">Update Status</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <a class="link-back" href="{{ url_for('admin.orders') }}">&larr; Back to orders</a>
+
+{% endblock %}

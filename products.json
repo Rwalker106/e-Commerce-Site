@@ -1,0 +1,6907 @@
+[
+  {
+    "id": 1,
+    "sku": "COS-001",
+    "slug": "lunaris-glow-elixir",
+    "name": "Lunaris Glow Elixir",
+    "brand": "Lunaris",
+    "description": "A brightening facial serum with a soft lavender hue and a lightweight, fast-absorbing texture.",
+    "category": "Cosmetics & Skincare",
+    "subcategory": "Serum",
+    "price": 29.99,
+    "discount_price": null,
+    "cost": 8.5,
+    "stock": 42,
+    "reorder_level": 10,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Luxury skincare serum bottle labeled “Lunaris Glow Elixir,” frosted lavender glass, silver dropper, soft studio lighting, premium product photography, hyper-realistic",
+    "dimensions": {
+      "width": 2.0,
+      "height": 5.0,
+      "depth": 2.0
+    },
+    "weight": 0.4,
+    "tags": [
+      "serum",
+      "brightening",
+      "skincare",
+      "luxury"
+    ],
+    "active": true,
+    "featured": true,
+    "rating": 4.8,
+    "review_count": 312,
+    "tax_class": "standard",
+    "created_at": "2025-02-10T09:00:00Z"
+  },
+  {
+    "id": 2,
+    "sku": "COS-002",
+    "slug": "aquabloom-revive-cream",
+    "name": "AquaBloom Revive Cream",
+    "brand": "AquaBloom",
+    "description": "Hydrating face cream with a smooth, whipped texture and a fresh aquatic scent.",
+    "category": "Cosmetics & Skincare",
+    "subcategory": "Moisturizer",
+    "price": 24.99,
+    "discount_price": 19.99,
+    "cost": 6.2,
+    "stock": 30,
+    "reorder_level": 8,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Pastel teal jar labeled “AquaBloom Revive,” chrome lid, water droplets, clean beauty aesthetic, macro beauty shot, soft shadows",
+    "dimensions": {
+      "width": 3.0,
+      "height": 3.0,
+      "depth": 3.0
+    },
+    "weight": 0.6,
+    "tags": [
+      "moisturizer",
+      "hydrating",
+      "face cream"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.6,
+    "review_count": 198,
+    "tax_class": "standard",
+    "created_at": "2025-02-14T09:00:00Z"
+  },
+  {
+    "id": 3,
+    "sku": "COS-003",
+    "slug": "solara-dew-mist",
+    "name": "Solara Dew Mist",
+    "brand": "Solara",
+    "description": "A refreshing facial mist with citrus-herbal notes for an instant dewy finish.",
+    "category": "Cosmetics & Skincare",
+    "subcategory": "Mist",
+    "price": 18.99,
+    "discount_price": null,
+    "cost": 4.1,
+    "stock": 55,
+    "reorder_level": 12,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Amber spray bottle labeled “Solara Dew Mist,” botanical leaves, sunlit mist effect, fresh skincare product photo",
+    "dimensions": {
+      "width": 2.0,
+      "height": 6.0,
+      "depth": 2.0
+    },
+    "weight": 0.5,
+    "tags": [
+      "mist",
+      "hydrating",
+      "refreshing"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.4,
+    "review_count": 143,
+    "tax_class": "standard",
+    "created_at": "2025-02-20T09:00:00Z"
+  },
+  {
+    "id": 4,
+    "sku": "COS-004",
+    "slug": "velvet-petal-cleanser",
+    "name": "Velvet Petal Cleanser",
+    "brand": "Velvet Petal",
+    "description": "A gentle foaming cleanser with rose-silk extract for daily use.",
+    "category": "Cosmetics & Skincare",
+    "subcategory": "Cleanser",
+    "price": 19.99,
+    "discount_price": null,
+    "cost": 5.0,
+    "stock": 22,
+    "reorder_level": 6,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Soft pink bottle labeled “Velvet Petal Cleanser,” rose petals, airy foam, clean minimalist aesthetic",
+    "dimensions": {
+      "width": 2.5,
+      "height": 6.5,
+      "depth": 2.5
+    },
+    "weight": 0.7,
+    "tags": [
+      "cleanser",
+      "foaming",
+      "rose"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.7,
+    "review_count": 227,
+    "tax_class": "standard",
+    "created_at": "2025-02-28T09:00:00Z"
+  },
+  {
+    "id": 5,
+    "sku": "COS-005",
+    "slug": "nocturne-renewal-oil",
+    "name": "Nocturne Renewal Oil",
+    "brand": "Nocturne",
+    "description": "A nighttime facial oil with a rich blend of botanical extracts for overnight nourishment.",
+    "category": "Cosmetics & Skincare",
+    "subcategory": "Oil",
+    "price": 32.99,
+    "discount_price": null,
+    "cost": 7.8,
+    "stock": 18,
+    "reorder_level": 5,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Dark violet glass bottle labeled “Nocturne Renewal Oil,” gold accents, moody lighting, luxury skincare product",
+    "dimensions": {
+      "width": 1.8,
+      "height": 4.5,
+      "depth": 1.8
+    },
+    "weight": 0.35,
+    "tags": [
+      "facial oil",
+      "night treatment",
+      "nourishing"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.9,
+    "review_count": 88,
+    "tax_class": "standard",
+    "created_at": "2025-03-05T09:00:00Z"
+  },
+  {
+    "id": 6,
+    "sku": "COS-006",
+    "slug": "bloomveil-spf-40",
+    "name": "Bloomveil SPF 40",
+    "brand": "Bloomveil",
+    "description": "A lightweight sunscreen with SPF 40 and a soft matte finish.",
+    "category": "Cosmetics & Skincare",
+    "subcategory": "Sunscreen",
+    "price": 17.99,
+    "discount_price": null,
+    "cost": 3.9,
+    "stock": 60,
+    "reorder_level": 15,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Minimalist white tube labeled “Bloomveil SPF 40,” soft shadows, clean beauty style, studio lighting",
+    "dimensions": {
+      "width": 2.0,
+      "height": 6.0,
+      "depth": 1.5
+    },
+    "weight": 0.4,
+    "tags": [
+      "sunscreen",
+      "SPF40",
+      "matte finish"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.3,
+    "review_count": 175,
+    "tax_class": "standard",
+    "created_at": "2025-03-10T09:00:00Z"
+  },
+  {
+    "id": 7,
+    "sku": "COS-007",
+    "slug": "petaltone-lip-tint",
+    "name": "PetalTone Lip Tint",
+    "brand": "PetalTone",
+    "description": "A sheer moisturizing lip tint available in three soft, buildable shades.",
+    "category": "Cosmetics & Skincare",
+    "subcategory": "Lip",
+    "price": 12.99,
+    "discount_price": null,
+    "cost": 2.1,
+    "stock": 40,
+    "reorder_level": 10,
+    "variants": {
+      "colors": [
+        "Rose",
+        "Berry",
+        "Nude"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Small glass tubes of lip tint labeled “PetalTone,” pastel tones, glossy texture, clean product layout",
+    "dimensions": {
+      "width": 0.8,
+      "height": 3.5,
+      "depth": 0.8
+    },
+    "weight": 0.1,
+    "tags": [
+      "lip tint",
+      "sheer",
+      "moisturizing"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.5,
+    "review_count": 264,
+    "tax_class": "standard",
+    "created_at": "2025-03-15T09:00:00Z"
+  },
+  {
+    "id": 8,
+    "sku": "COS-008",
+    "slug": "cloudsilk-body-butter",
+    "name": "CloudSilk Body Butter",
+    "brand": "CloudSilk",
+    "description": "An ultra-rich whipped body butter with a warm vanilla-orchid scent.",
+    "category": "Cosmetics & Skincare",
+    "subcategory": "Body",
+    "price": 21.99,
+    "discount_price": null,
+    "cost": 4.8,
+    "stock": 25,
+    "reorder_level": 7,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Creamy swirl body butter in a matte jar labeled “CloudSilk,” warm lighting, cozy spa aesthetic",
+    "dimensions": {
+      "width": 3.5,
+      "height": 2.8,
+      "depth": 3.5
+    },
+    "weight": 0.9,
+    "tags": [
+      "body butter",
+      "whipped",
+      "vanilla"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.7,
+    "review_count": 193,
+    "tax_class": "standard",
+    "created_at": "2025-03-20T09:00:00Z"
+  },
+  {
+    "id": 9,
+    "sku": "COS-009",
+    "slug": "herbal-drift-shampoo",
+    "name": "Herbal Drift Shampoo",
+    "brand": "Herbal Drift",
+    "description": "A botanical shampoo with mint and sage infusion for a refreshing cleanse.",
+    "category": "Cosmetics & Skincare",
+    "subcategory": "Hair",
+    "price": 14.99,
+    "discount_price": null,
+    "cost": 3.5,
+    "stock": 33,
+    "reorder_level": 8,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Tall green bottle labeled “Herbal Drift Shampoo,” water splash, fresh aesthetic, clean background",
+    "dimensions": {
+      "width": 2.5,
+      "height": 8.0,
+      "depth": 2.5
+    },
+    "weight": 1.0,
+    "tags": [
+      "shampoo",
+      "botanical",
+      "mint"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.2,
+    "review_count": 118,
+    "tax_class": "standard",
+    "created_at": "2025-03-25T09:00:00Z"
+  },
+  {
+    "id": 10,
+    "sku": "COS-010",
+    "slug": "herbal-drift-conditioner",
+    "name": "Herbal Drift Conditioner",
+    "brand": "Herbal Drift",
+    "description": "A smoothing conditioner with matching mint-sage botanicals.",
+    "category": "Cosmetics & Skincare",
+    "subcategory": "Hair",
+    "price": 14.99,
+    "discount_price": null,
+    "cost": 3.5,
+    "stock": 33,
+    "reorder_level": 8,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Matching green bottle labeled “Herbal Drift Conditioner,” soft highlights, clean product shot",
+    "dimensions": {
+      "width": 2.5,
+      "height": 8.0,
+      "depth": 2.5
+    },
+    "weight": 1.0,
+    "tags": [
+      "conditioner",
+      "botanical",
+      "smoothing"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.3,
+    "review_count": 109,
+    "tax_class": "standard",
+    "created_at": "2025-03-25T09:00:00Z"
+  },
+  {
+    "id": 11,
+    "sku": "ELE-001",
+    "slug": "echopulse-s3-earbuds",
+    "name": "EchoPulse S3 Earbuds",
+    "brand": "EchoPulse",
+    "description": "Futuristic wireless earbuds with a glowing LED ring and noise-isolating fit.",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Audio",
+    "price": 59.99,
+    "discount_price": 49.99,
+    "cost": 18.0,
+    "stock": 20,
+    "reorder_level": 5,
+    "variants": {
+      "colors": [
+        "Matte Black",
+        "Pearl White",
+        "Midnight Blue"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Matte black earbuds named “EchoPulse S3,” holographic LED ring, floating product render, dramatic rim lighting",
+    "dimensions": {
+      "width": 3.0,
+      "height": 1.5,
+      "depth": 3.0
+    },
+    "weight": 0.4,
+    "tags": [
+      "earbuds",
+      "wireless",
+      "audio"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.4,
+    "review_count": 287,
+    "tax_class": "standard",
+    "created_at": "2025-04-05T09:00:00Z"
+  },
+  {
+    "id": 12,
+    "sku": "ELE-002",
+    "slug": "nexasphere-one-hub",
+    "name": "NexaSphere One Hub",
+    "brand": "NexaSphere",
+    "description": "A compact smart home hub with ambient light ring and multi-device connectivity.",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Smart Home",
+    "price": 79.99,
+    "discount_price": null,
+    "cost": 22.0,
+    "stock": 15,
+    "reorder_level": 4,
+    "variants": {
+      "colors": [
+        "Slate Gray",
+        "Pearl White"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Spherical device named “NexaSphere One,” cyan glow ring, Apple-style minimal product photography",
+    "dimensions": {
+      "width": 4.0,
+      "height": 3.5,
+      "depth": 4.0
+    },
+    "weight": 0.9,
+    "tags": [
+      "smart hub",
+      "home automation"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.6,
+    "review_count": 152,
+    "tax_class": "standard",
+    "created_at": "2025-04-10T09:00:00Z"
+  },
+  {
+    "id": 13,
+    "sku": "ELE-003",
+    "slug": "voltedge-mini-speaker",
+    "name": "VoltEdge Mini Speaker",
+    "brand": "VoltEdge",
+    "description": "A compact Bluetooth speaker with deep bass and portable design.",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Audio",
+    "price": 39.99,
+    "discount_price": 32.99,
+    "cost": 12.0,
+    "stock": 28,
+    "reorder_level": 6,
+    "variants": {
+      "colors": [
+        "Matte Black",
+        "Ocean Blue",
+        "Burnt Orange"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Small cube speaker named “VoltEdge Mini,” neon accents, dramatic lighting, tech product shot",
+    "dimensions": {
+      "width": 3.0,
+      "height": 3.0,
+      "depth": 3.0
+    },
+    "weight": 1.0,
+    "tags": [
+      "speaker",
+      "bluetooth",
+      "portable"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.3,
+    "review_count": 341,
+    "tax_class": "standard",
+    "created_at": "2025-04-15T09:00:00Z"
+  },
+  {
+    "id": 14,
+    "sku": "ELE-004",
+    "slug": "skyline-pro-keyboard",
+    "name": "Skyline Pro Keyboard",
+    "brand": "Skyline",
+    "description": "A low-profile mechanical keyboard with soft RGB backlighting.",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Peripherals",
+    "price": 89.99,
+    "discount_price": null,
+    "cost": 25.0,
+    "stock": 12,
+    "reorder_level": 3,
+    "variants": {
+      "colors": [
+        "Space Gray",
+        "Pearl White",
+        "Rose Gold"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Slim mechanical keyboard named “Skyline Pro,” pastel RGB, clean desk aesthetic, top-down shot",
+    "dimensions": {
+      "width": 17.0,
+      "height": 1.5,
+      "depth": 5.0
+    },
+    "weight": 1.8,
+    "tags": [
+      "keyboard",
+      "mechanical",
+      "RGB"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.7,
+    "review_count": 213,
+    "tax_class": "standard",
+    "created_at": "2025-04-20T09:00:00Z"
+  },
+  {
+    "id": 15,
+    "sku": "ELE-005",
+    "slug": "fluxcharge-20k-powerbank",
+    "name": "FluxCharge 20K Powerbank",
+    "brand": "FluxCharge",
+    "description": "A high-capacity 20,000 mAh powerbank with dual fast-charge ports.",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Power",
+    "price": 34.99,
+    "discount_price": null,
+    "cost": 10.0,
+    "stock": 40,
+    "reorder_level": 10,
+    "variants": {
+      "colors": [
+        "Matte Black",
+        "Graphite Silver"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Matte black powerbank labeled “FluxCharge 20K,” glowing indicators, tech advertisement style",
+    "dimensions": {
+      "width": 3.0,
+      "height": 0.8,
+      "depth": 6.0
+    },
+    "weight": 0.9,
+    "tags": [
+      "powerbank",
+      "portable charger"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.5,
+    "review_count": 428,
+    "tax_class": "standard",
+    "created_at": "2025-04-25T09:00:00Z"
+  },
+  {
+    "id": 16,
+    "sku": "ELE-006",
+    "slug": "aerolens-pocket-drone",
+    "name": "AeroLens Pocket Drone",
+    "brand": "AeroLens",
+    "description": "A foldable mini drone with fictional SkyTrace AI-assisted flight.",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Drone",
+    "price": 149.99,
+    "discount_price": 129.99,
+    "cost": 45.0,
+    "stock": 8,
+    "reorder_level": 2,
+    "variants": {
+      "colors": [
+        "Gunmetal Gray",
+        "Arctic White"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Foldable drone named “AeroLens,” metallic finish, floating render, dramatic lighting",
+    "dimensions": {
+      "width": 6.0,
+      "height": 2.5,
+      "depth": 6.0
+    },
+    "weight": 1.2,
+    "tags": [
+      "drone",
+      "camera",
+      "portable"
+    ],
+    "active": true,
+    "featured": true,
+    "rating": 4.8,
+    "review_count": 76,
+    "tax_class": "standard",
+    "created_at": "2025-05-01T09:00:00Z"
+  },
+  {
+    "id": 17,
+    "sku": "ELE-007",
+    "slug": "pulsebeam-led-strip",
+    "name": "PulseBeam LED Strip",
+    "brand": "PulseBeam",
+    "description": "An RGB LED strip with app-controlled patterns and scenes.",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Lighting",
+    "price": 19.99,
+    "discount_price": null,
+    "cost": 5.0,
+    "stock": 60,
+    "reorder_level": 15,
+    "variants": {
+      "colors": [
+        "Multicolor RGB",
+        "Warm White",
+        "Cool White"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Coiled RGB LED strip named “PulseBeam,” glowing gradients, dark background, vivid colors",
+    "dimensions": {
+      "width": 4.0,
+      "height": 1.0,
+      "depth": 4.0
+    },
+    "weight": 0.6,
+    "tags": [
+      "LED strip",
+      "RGB",
+      "lighting"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.2,
+    "review_count": 509,
+    "tax_class": "standard",
+    "created_at": "2025-05-05T09:00:00Z"
+  },
+  {
+    "id": 18,
+    "sku": "ELE-008",
+    "slug": "nimbuspad-tablet-8",
+    "name": "NimbusPad Tablet 8\"",
+    "brand": "NimbusPad",
+    "description": "A compact 8-inch tablet for media, reading, and note-taking.",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Tablet",
+    "price": 169.99,
+    "discount_price": null,
+    "cost": 55.0,
+    "stock": 10,
+    "reorder_level": 3,
+    "variants": {
+      "colors": [
+        "Space Gray",
+        "Silver",
+        "Midnight Blue"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Sleek tablet named “NimbusPad,” bezel-light design, floating angle shot, clean background",
+    "dimensions": {
+      "width": 5.0,
+      "height": 8.0,
+      "depth": 0.4
+    },
+    "weight": 1.0,
+    "tags": [
+      "tablet",
+      "media",
+      "portable"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.4,
+    "review_count": 134,
+    "tax_class": "standard",
+    "created_at": "2025-05-10T09:00:00Z"
+  },
+  {
+    "id": 19,
+    "sku": "ELE-009",
+    "slug": "arcsync-usb-c-dock",
+    "name": "ArcSync USB-C Dock",
+    "brand": "ArcSync",
+    "description": "A multi-port USB-C docking station with aluminum body.",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Peripherals",
+    "price": 49.99,
+    "discount_price": null,
+    "cost": 14.0,
+    "stock": 25,
+    "reorder_level": 6,
+    "variants": {
+      "colors": [
+        "Space Gray",
+        "Silver"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Metallic dock named “ArcSync,” ports glowing, clean tech layout, studio lighting",
+    "dimensions": {
+      "width": 5.5,
+      "height": 0.8,
+      "depth": 2.5
+    },
+    "weight": 0.7,
+    "tags": [
+      "dock",
+      "USB-C",
+      "hub"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.6,
+    "review_count": 248,
+    "tax_class": "standard",
+    "created_at": "2025-05-15T09:00:00Z"
+  },
+  {
+    "id": 20,
+    "sku": "ELE-010",
+    "slug": "halocast-micro-projector",
+    "name": "HaloCast Micro Projector",
+    "brand": "HaloCast",
+    "description": "A pocket-sized projector with NanoBeam optics for quick presentations and movie nights.",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Projector",
+    "price": 129.99,
+    "discount_price": null,
+    "cost": 38.0,
+    "stock": 7,
+    "reorder_level": 2,
+    "variants": {
+      "colors": [
+        "Matte Black",
+        "Pearl White"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Tiny projector named “HaloCast,” soft beam of light, cinematic lighting, dark background",
+    "dimensions": {
+      "width": 3.5,
+      "height": 1.8,
+      "depth": 3.5
+    },
+    "weight": 0.9,
+    "tags": [
+      "projector",
+      "portable",
+      "micro"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.5,
+    "review_count": 97,
+    "tax_class": "standard",
+    "created_at": "2025-05-20T09:00:00Z"
+  },
+  {
+    "id": 21,
+    "sku": "TOY-001",
+    "slug": "mossling-plush",
+    "name": "Mossling Plush",
+    "brand": "PlushWorld",
+    "description": "A soft moss-green plush creature with tiny leaf ears and embroidered eyes.",
+    "category": "Toys & Collectibles",
+    "subcategory": "Plush",
+    "price": 14.99,
+    "discount_price": null,
+    "cost": 4.0,
+    "stock": 50,
+    "reorder_level": 12,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Cute plush toy called “Mossling,” moss texture, cozy lighting, children's product photography",
+    "dimensions": {
+      "width": 6.0,
+      "height": 7.0,
+      "depth": 5.0
+    },
+    "weight": 0.4,
+    "tags": [
+      "plush",
+      "cute",
+      "kids"
+    ],
+    "active": true,
+    "featured": true,
+    "rating": 4.9,
+    "review_count": 445,
+    "tax_class": "standard",
+    "created_at": "2025-06-01T09:00:00Z"
+  },
+  {
+    "id": 22,
+    "sku": "TOY-002",
+    "slug": "starbound-scout-figurine",
+    "name": "Starbound Scout Figurine",
+    "brand": "CollectaFig",
+    "description": "A sci-fi armored figurine with a glowing visor and dynamic pose.",
+    "category": "Toys & Collectibles",
+    "subcategory": "Figurine",
+    "price": 29.99,
+    "discount_price": 24.99,
+    "cost": 9.0,
+    "stock": 18,
+    "reorder_level": 4,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Resin model figurine named “Starbound Scout,” sci-fi armor, glowing visor, dramatic lighting",
+    "dimensions": {
+      "width": 3.0,
+      "height": 6.0,
+      "depth": 3.0
+    },
+    "weight": 0.7,
+    "tags": [
+      "figurine",
+      "sci-fi",
+      "collectible"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.7,
+    "review_count": 167,
+    "tax_class": "standard",
+    "created_at": "2025-06-05T09:00:00Z"
+  },
+  {
+    "id": 23,
+    "sku": "TOY-003",
+    "slug": "pebblepup-mini-plush",
+    "name": "PebblePup Mini Plush",
+    "brand": "PlushWorld",
+    "description": "A tiny round plush with a stone-speckled pattern and soft feel.",
+    "category": "Toys & Collectibles",
+    "subcategory": "Plush",
+    "price": 9.99,
+    "discount_price": null,
+    "cost": 2.5,
+    "stock": 60,
+    "reorder_level": 15,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Small plush toy called “PebblePup,” neutral tones, soft background, cute aesthetic",
+    "dimensions": {
+      "width": 4.0,
+      "height": 4.0,
+      "depth": 4.0
+    },
+    "weight": 0.25,
+    "tags": [
+      "plush",
+      "mini",
+      "kids"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.8,
+    "review_count": 382,
+    "tax_class": "standard",
+    "created_at": "2025-06-10T09:00:00Z"
+  },
+  {
+    "id": 24,
+    "sku": "TOY-004",
+    "slug": "solarsprite-figure",
+    "name": "SolarSprite Figure",
+    "brand": "CollectaFig",
+    "description": "A fantasy creature figurine with translucent glowing wings.",
+    "category": "Toys & Collectibles",
+    "subcategory": "Figurine",
+    "price": 24.99,
+    "discount_price": null,
+    "cost": 7.0,
+    "stock": 22,
+    "reorder_level": 5,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Small figurine named “SolarSprite,” translucent wings, magical lighting, fantasy collectible",
+    "dimensions": {
+      "width": 2.5,
+      "height": 5.0,
+      "depth": 2.5
+    },
+    "weight": 0.5,
+    "tags": [
+      "figurine",
+      "fantasy",
+      "collectible"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.6,
+    "review_count": 141,
+    "tax_class": "standard",
+    "created_at": "2025-06-15T09:00:00Z"
+  },
+  {
+    "id": 25,
+    "sku": "TOY-005",
+    "slug": "gearling-bot-model",
+    "name": "Gearling Bot Model",
+    "brand": "CollectaFig",
+    "description": "A steampunk-inspired robot collectible with exposed gears and vintage charm.",
+    "category": "Toys & Collectibles",
+    "subcategory": "Figurine",
+    "price": 27.99,
+    "discount_price": null,
+    "cost": 8.0,
+    "stock": 14,
+    "reorder_level": 3,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Bronze steampunk robot figurine named “Gearling Bot,” gears and cogs, industrial lighting",
+    "dimensions": {
+      "width": 3.0,
+      "height": 5.5,
+      "depth": 3.0
+    },
+    "weight": 0.8,
+    "tags": [
+      "robot",
+      "steampunk",
+      "collectible"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.5,
+    "review_count": 93,
+    "tax_class": "standard",
+    "created_at": "2025-06-20T09:00:00Z"
+  },
+  {
+    "id": 26,
+    "sku": "TOY-006",
+    "slug": "frosttail-fox-plush",
+    "name": "FrostTail Fox Plush",
+    "brand": "PlushWorld",
+    "description": "A blue-white plush fox with a shimmering tail and soft fur.",
+    "category": "Toys & Collectibles",
+    "subcategory": "Plush",
+    "price": 15.99,
+    "discount_price": null,
+    "cost": 4.2,
+    "stock": 40,
+    "reorder_level": 10,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Cute fox plush named “FrostTail,” icy palette, soft lighting, children's toy photography",
+    "dimensions": {
+      "width": 6.0,
+      "height": 8.0,
+      "depth": 5.0
+    },
+    "weight": 0.45,
+    "tags": [
+      "plush",
+      "fox",
+      "kids"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.9,
+    "review_count": 338,
+    "tax_class": "standard",
+    "created_at": "2025-06-25T09:00:00Z"
+  },
+  {
+    "id": 27,
+    "sku": "TOY-007",
+    "slug": "runeguardian-statue",
+    "name": "RuneGuardian Statue",
+    "brand": "CollectaFig",
+    "description": "A stone-like guardian statue etched with glowing runes.",
+    "category": "Toys & Collectibles",
+    "subcategory": "Statue",
+    "price": 34.99,
+    "discount_price": 27.99,
+    "cost": 10.0,
+    "stock": 12,
+    "reorder_level": 3,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Mini statue named “RuneGuardian,” engraved runes, mystical lighting, fantasy decor",
+    "dimensions": {
+      "width": 3.5,
+      "height": 7.0,
+      "depth": 3.5
+    },
+    "weight": 1.2,
+    "tags": [
+      "statue",
+      "fantasy",
+      "runes"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.4,
+    "review_count": 72,
+    "tax_class": "standard",
+    "created_at": "2025-07-01T09:00:00Z"
+  },
+  {
+    "id": 28,
+    "sku": "TOY-008",
+    "slug": "bubblebun-plush",
+    "name": "BubbleBun Plush",
+    "brand": "PlushWorld",
+    "description": "A round pastel bunny plush with an ultra-soft feel.",
+    "category": "Toys & Collectibles",
+    "subcategory": "Plush",
+    "price": 11.99,
+    "discount_price": null,
+    "cost": 3.0,
+    "stock": 55,
+    "reorder_level": 12,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Pastel plush bunny named “BubbleBun,” soft shadows, cute aesthetic, children's toy photo",
+    "dimensions": {
+      "width": 5.0,
+      "height": 6.0,
+      "depth": 5.0
+    },
+    "weight": 0.35,
+    "tags": [
+      "plush",
+      "bunny",
+      "kids"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.8,
+    "review_count": 417,
+    "tax_class": "standard",
+    "created_at": "2025-07-05T09:00:00Z"
+  },
+  {
+    "id": 29,
+    "sku": "TOY-009",
+    "slug": "nebulaknight-figure",
+    "name": "NebulaKnight Figure",
+    "brand": "CollectaFig",
+    "description": "A space knight figurine with star-etched armor and a cosmic theme.",
+    "category": "Toys & Collectibles",
+    "subcategory": "Figurine",
+    "price": 31.99,
+    "discount_price": null,
+    "cost": 9.5,
+    "stock": 16,
+    "reorder_level": 4,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Metallic figurine named “NebulaKnight,” cosmic background, dramatic lighting, sci-fi collectible",
+    "dimensions": {
+      "width": 3.0,
+      "height": 6.5,
+      "depth": 3.0
+    },
+    "weight": 0.75,
+    "tags": [
+      "figurine",
+      "space",
+      "collectible"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.6,
+    "review_count": 128,
+    "tax_class": "standard",
+    "created_at": "2025-07-10T09:00:00Z"
+  },
+  {
+    "id": 30,
+    "sku": "TOY-010",
+    "slug": "glowshell-turtle-plush",
+    "name": "GlowShell Turtle Plush",
+    "brand": "PlushWorld",
+    "description": "A plush turtle with a bioluminescent-style shell pattern.",
+    "category": "Toys & Collectibles",
+    "subcategory": "Plush",
+    "price": 13.99,
+    "discount_price": null,
+    "cost": 3.8,
+    "stock": 48,
+    "reorder_level": 12,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Cute turtle plush named “GlowShell,” glowing shell pattern, cozy lighting, kids toy",
+    "dimensions": {
+      "width": 6.0,
+      "height": 4.0,
+      "depth": 7.0
+    },
+    "weight": 0.4,
+    "tags": [
+      "plush",
+      "turtle",
+      "kids"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.7,
+    "review_count": 293,
+    "tax_class": "standard",
+    "created_at": "2025-07-15T09:00:00Z"
+  },
+  {
+    "id": 31,
+    "sku": "HOM-001",
+    "slug": "hearthstone-brewcup",
+    "name": "Hearthstone BrewCup",
+    "brand": "Hearthstone",
+    "description": "A speckled ceramic mug with a hand-glazed finish and comfortable handle.",
+    "category": "Home Goods & Decor",
+    "subcategory": "Kitchen",
+    "price": 14.99,
+    "discount_price": null,
+    "cost": 4.2,
+    "stock": 44,
+    "reorder_level": 10,
+    "variants": {
+      "colors": [
+        "Speckled Gray",
+        "Cream",
+        "Slate Blue"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Artisan ceramic mug called “Hearthstone BrewCup,” speckled glaze, warm morning light, wooden table",
+    "dimensions": {
+      "width": 3.5,
+      "height": 4.0,
+      "depth": 3.5
+    },
+    "weight": 0.8,
+    "tags": [
+      "mug",
+      "ceramic",
+      "kitchen"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.6,
+    "review_count": 521,
+    "tax_class": "standard",
+    "created_at": "2025-07-20T09:00:00Z"
+  },
+  {
+    "id": 32,
+    "sku": "HOM-002",
+    "slug": "willow-ember-candle-forest-mist",
+    "name": "Willow & Ember Candle — Forest Mist",
+    "brand": "Willow & Ember",
+    "description": "An amber-glass soy candle with an earthy forest-inspired scent.",
+    "category": "Home Goods & Decor",
+    "subcategory": "Candle",
+    "price": 18.99,
+    "discount_price": null,
+    "cost": 5.0,
+    "stock": 28,
+    "reorder_level": 8,
+    "variants": {
+      "scents": [
+        "Forest Mist",
+        "Vanilla Oak",
+        "Citrus Bloom"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Amber jar candle labeled “Willow & Ember — Forest Mist,” eucalyptus leaves, cozy warm lighting",
+    "dimensions": {
+      "width": 3.0,
+      "height": 3.5,
+      "depth": 3.0
+    },
+    "weight": 0.9,
+    "tags": [
+      "candle",
+      "soy",
+      "forest"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.7,
+    "review_count": 304,
+    "tax_class": "standard",
+    "created_at": "2025-07-25T09:00:00Z"
+  },
+  {
+    "id": 33,
+    "sku": "HOM-003",
+    "slug": "cloudweave-throw-blanket",
+    "name": "CloudWeave Throw Blanket",
+    "brand": "CloudWeave",
+    "description": "An ultra-soft woven throw blanket in neutral tones for couches or beds.",
+    "category": "Home Goods & Decor",
+    "subcategory": "Textiles",
+    "price": 39.99,
+    "discount_price": null,
+    "cost": 12.0,
+    "stock": 20,
+    "reorder_level": 5,
+    "variants": {
+      "colors": [
+        "Oatmeal",
+        "Charcoal",
+        "Dusty Rose"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Folded throw blanket named “CloudWeave,” soft textures, lifestyle home scene",
+    "dimensions": {
+      "width": 12.0,
+      "height": 4.0,
+      "depth": 10.0
+    },
+    "weight": 2.2,
+    "tags": [
+      "blanket",
+      "throw",
+      "cozy"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.5,
+    "review_count": 187,
+    "tax_class": "standard",
+    "created_at": "2025-08-01T09:00:00Z"
+  },
+  {
+    "id": 34,
+    "sku": "HOM-004",
+    "slug": "solstice-wall-clock",
+    "name": "Solstice Wall Clock",
+    "brand": "Solstice Decor",
+    "description": "A minimalist wooden wall clock with brass hands and a clean face.",
+    "category": "Home Goods & Decor",
+    "subcategory": "Wall Decor",
+    "price": 29.99,
+    "discount_price": null,
+    "cost": 9.5,
+    "stock": 15,
+    "reorder_level": 4,
+    "variants": {
+      "colors": [
+        "Natural Wood",
+        "Walnut Dark",
+        "White Oak"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Modern wall clock named “Solstice,” natural wood, clean interior background",
+    "dimensions": {
+      "width": 10.0,
+      "height": 10.0,
+      "depth": 1.5
+    },
+    "weight": 1.5,
+    "tags": [
+      "clock",
+      "wall decor",
+      "minimalist"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.3,
+    "review_count": 142,
+    "tax_class": "standard",
+    "created_at": "2025-08-05T09:00:00Z"
+  },
+  {
+    "id": 35,
+    "sku": "HOM-005",
+    "slug": "everroot-planter-pot",
+    "name": "EverRoot Planter Pot",
+    "brand": "EverRoot",
+    "description": "A matte ceramic planter with a drainage base for indoor plants.",
+    "category": "Home Goods & Decor",
+    "subcategory": "Planter",
+    "price": 19.99,
+    "discount_price": null,
+    "cost": 6.0,
+    "stock": 33,
+    "reorder_level": 8,
+    "variants": {
+      "colors": [
+        "Matte White",
+        "Terracotta",
+        "Sage Green",
+        "Slate Gray"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Matte planter pot named “EverRoot,” small plant, soft daylight shadows",
+    "dimensions": {
+      "width": 5.0,
+      "height": 5.0,
+      "depth": 5.0
+    },
+    "weight": 1.4,
+    "tags": [
+      "planter",
+      "ceramic",
+      "plants"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.4,
+    "review_count": 213,
+    "tax_class": "standard",
+    "created_at": "2025-08-10T09:00:00Z"
+  },
+  {
+    "id": 36,
+    "sku": "HOM-006",
+    "slug": "glowglass-table-lamp",
+    "name": "GlowGlass Table Lamp",
+    "brand": "GlowGlass",
+    "description": "A frosted-glass table lamp with a warm ambient glow.",
+    "category": "Home Goods & Decor",
+    "subcategory": "Lighting",
+    "price": 54.99,
+    "discount_price": 44.99,
+    "cost": 18.0,
+    "stock": 12,
+    "reorder_level": 3,
+    "variants": {
+      "colors": [
+        "Frosted White",
+        "Smoky Gray",
+        "Blush Pink"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Frosted lamp named “GlowGlass,” warm lighting, cozy interior scene",
+    "dimensions": {
+      "width": 7.0,
+      "height": 12.0,
+      "depth": 7.0
+    },
+    "weight": 3.0,
+    "tags": [
+      "lamp",
+      "lighting",
+      "table"
+    ],
+    "active": true,
+    "featured": true,
+    "rating": 4.6,
+    "review_count": 98,
+    "tax_class": "standard",
+    "created_at": "2025-08-15T09:00:00Z"
+  },
+  {
+    "id": 37,
+    "sku": "HOM-007",
+    "slug": "stonehaven-coasters-set-of-4",
+    "name": "StoneHaven Coasters — Set of 4",
+    "brand": "StoneHaven",
+    "description": "A set of slate-style coasters with cork backing.",
+    "category": "Home Goods & Decor",
+    "subcategory": "Kitchen",
+    "price": 12.99,
+    "discount_price": null,
+    "cost": 3.0,
+    "stock": 50,
+    "reorder_level": 12,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Slate coasters named “StoneHaven,” top-down shot, rustic wood table",
+    "dimensions": {
+      "width": 4.0,
+      "height": 1.0,
+      "depth": 4.0
+    },
+    "weight": 1.1,
+    "tags": [
+      "coasters",
+      "slate",
+      "kitchen"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.5,
+    "review_count": 376,
+    "tax_class": "standard",
+    "created_at": "2025-08-20T09:00:00Z"
+  },
+  {
+    "id": 38,
+    "sku": "HOM-008",
+    "slug": "aromaflow-diffuser",
+    "name": "AromaFlow Diffuser",
+    "brand": "AromaFlow",
+    "description": "An ultrasonic diffuser with soft LED glow for essential oils.",
+    "category": "Home Goods & Decor",
+    "subcategory": "Aromatherapy",
+    "price": 34.99,
+    "discount_price": null,
+    "cost": 10.0,
+    "stock": 18,
+    "reorder_level": 5,
+    "variants": {
+      "colors": [
+        "White",
+        "Bamboo Wood",
+        "Black"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Minimalist diffuser named “AromaFlow,” mist rising, spa-like lighting",
+    "dimensions": {
+      "width": 4.5,
+      "height": 7.0,
+      "depth": 4.5
+    },
+    "weight": 1.3,
+    "tags": [
+      "diffuser",
+      "aromatherapy",
+      "LED"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.7,
+    "review_count": 229,
+    "tax_class": "standard",
+    "created_at": "2025-08-25T09:00:00Z"
+  },
+  {
+    "id": 39,
+    "sku": "HOM-009",
+    "slug": "harbormist-linen-pillow",
+    "name": "HarborMist Linen Pillow",
+    "brand": "HarborMist",
+    "description": "A decorative pillow with a textured linen cover in neutral tones.",
+    "category": "Home Goods & Decor",
+    "subcategory": "Textiles",
+    "price": 22.99,
+    "discount_price": null,
+    "cost": 7.0,
+    "stock": 26,
+    "reorder_level": 6,
+    "variants": {
+      "colors": [
+        "Linen Natural",
+        "Charcoal",
+        "Sage Green",
+        "Dusty Blue"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Neutral linen pillow named “HarborMist,” couch setting, soft shadows",
+    "dimensions": {
+      "width": 18.0,
+      "height": 18.0,
+      "depth": 6.0
+    },
+    "weight": 1.4,
+    "tags": [
+      "pillow",
+      "linen",
+      "decor"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.4,
+    "review_count": 163,
+    "tax_class": "standard",
+    "created_at": "2025-09-01T09:00:00Z"
+  },
+  {
+    "id": 40,
+    "sku": "HOM-010",
+    "slug": "cinderoak-serving-board",
+    "name": "CinderOak Serving Board",
+    "brand": "CinderOak",
+    "description": "A charred-oak style serving board for kitchen use or display.",
+    "category": "Home Goods & Decor",
+    "subcategory": "Kitchen",
+    "price": 27.99,
+    "discount_price": null,
+    "cost": 8.0,
+    "stock": 14,
+    "reorder_level": 4,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Wooden serving board named “CinderOak,” top-down, rustic kitchen scene",
+    "dimensions": {
+      "width": 8.0,
+      "height": 0.8,
+      "depth": 16.0
+    },
+    "weight": 2.5,
+    "tags": [
+      "serving board",
+      "wood",
+      "kitchen"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.8,
+    "review_count": 114,
+    "tax_class": "standard",
+    "created_at": "2025-09-05T09:00:00Z"
+  },
+  {
+    "id": 41,
+    "sku": "WOM-001",
+    "slug": "lunasoft-knit-sweater",
+    "name": "LunaSoft Knit Sweater",
+    "brand": "LuxeWear",
+    "description": "A lightweight knit sweater in soft cream with a relaxed fit.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Women",
+    "price": 39.99,
+    "discount_price": null,
+    "cost": 12.0,
+    "stock": 22,
+    "reorder_level": 6,
+    "variants": {
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Cream",
+        "Dusty Rose",
+        "Sage Green"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Women's knit sweater named “LunaSoft,” folded, soft daylight, neutral tones",
+    "dimensions": {
+      "width": 12.0,
+      "height": 2.0,
+      "depth": 10.0
+    },
+    "weight": 1.1,
+    "tags": [
+      "sweater",
+      "women",
+      "knit"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.5,
+    "review_count": 234,
+    "tax_class": "standard",
+    "created_at": "2025-09-10T09:00:00Z"
+  },
+  {
+    "id": 42,
+    "sku": "WOM-002",
+    "slug": "astracrossbody-bag",
+    "name": "AstraCrossbody Bag",
+    "brand": "LuxeWear",
+    "description": "A faux-leather crossbody bag with gold hardware and adjustable strap.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Women",
+    "price": 49.99,
+    "discount_price": null,
+    "cost": 14.0,
+    "stock": 18,
+    "reorder_level": 5,
+    "variants": {
+      "colors": [
+        "Black",
+        "Camel",
+        "Blush"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Minimalist handbag named “AstraCrossbody,” clean studio lighting, neutral background",
+    "dimensions": {
+      "width": 9.0,
+      "height": 7.0,
+      "depth": 3.0
+    },
+    "weight": 1.3,
+    "tags": [
+      "bag",
+      "crossbody",
+      "women"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.6,
+    "review_count": 178,
+    "tax_class": "standard",
+    "created_at": "2025-09-15T09:00:00Z"
+  },
+  {
+    "id": 43,
+    "sku": "WOM-003",
+    "slug": "velora-silk-scarf",
+    "name": "Velora Silk Scarf",
+    "brand": "LuxeWear",
+    "description": "A printed silk scarf with abstract floral patterns.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Women",
+    "price": 24.99,
+    "discount_price": null,
+    "cost": 6.0,
+    "stock": 30,
+    "reorder_level": 8,
+    "variants": {
+      "colors": [
+        "Floral Blue",
+        "Floral Rose",
+        "Abstract Green"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Silk scarf named “Velora,” draped, soft shadows, elegant styling",
+    "dimensions": {
+      "width": 10.0,
+      "height": 1.0,
+      "depth": 10.0
+    },
+    "weight": 0.3,
+    "tags": [
+      "scarf",
+      "silk",
+      "women"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.4,
+    "review_count": 143,
+    "tax_class": "standard",
+    "created_at": "2025-09-20T09:00:00Z"
+  },
+  {
+    "id": 44,
+    "sku": "WOM-004",
+    "slug": "stridelite-running-shoes",
+    "name": "StrideLite Running Shoes",
+    "brand": "LuxeWear",
+    "description": "Lightweight running shoes with breathable mesh and cushioned soles.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Women",
+    "price": 64.99,
+    "discount_price": null,
+    "cost": 20.0,
+    "stock": 16,
+    "reorder_level": 4,
+    "variants": {
+      "sizes": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "colors": [
+        "White/Pink",
+        "Black",
+        "Gray/Blue"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Women's running shoes named “StrideLite,” floating pose, clean background",
+    "dimensions": {
+      "width": 8.0,
+      "height": 4.5,
+      "depth": 12.0
+    },
+    "weight": 1.8,
+    "tags": [
+      "shoes",
+      "running",
+      "women"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.7,
+    "review_count": 312,
+    "tax_class": "standard",
+    "created_at": "2025-09-25T09:00:00Z"
+  },
+  {
+    "id": 45,
+    "sku": "WOM-005",
+    "slug": "glowband-smartwatch",
+    "name": "GlowBand Smartwatch",
+    "brand": "LuxeWear",
+    "description": "A slim smartwatch with a rose-gold finish and soft silicone band.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Women",
+    "price": 89.99,
+    "discount_price": null,
+    "cost": 28.0,
+    "stock": 10,
+    "reorder_level": 3,
+    "variants": {
+      "colors": [
+        "Rose Gold/Pink Band",
+        "Silver/White Band",
+        "Black/Black Band"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Rose-gold smartwatch named “GlowBand,” macro detail, tech-fashion style",
+    "dimensions": {
+      "width": 1.7,
+      "height": 0.5,
+      "depth": 9.0
+    },
+    "weight": 0.4,
+    "tags": [
+      "smartwatch",
+      "wearable",
+      "women"
+    ],
+    "active": true,
+    "featured": true,
+    "rating": 4.5,
+    "review_count": 89,
+    "tax_class": "standard",
+    "created_at": "2025-10-01T09:00:00Z"
+  },
+  {
+    "id": 46,
+    "sku": "WOM-006",
+    "slug": "eclipse-denim-jacket",
+    "name": "Eclipse Denim Jacket",
+    "brand": "LuxeWear",
+    "description": "A classic denim jacket with modern tailoring and a slightly cropped fit.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Women",
+    "price": 49.99,
+    "discount_price": null,
+    "cost": 15.0,
+    "stock": 14,
+    "reorder_level": 4,
+    "variants": {
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Classic Blue",
+        "Light Wash",
+        "Dark Indigo"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Women's denim jacket named “Eclipse,” flatlay, soft shadows",
+    "dimensions": {
+      "width": 14.0,
+      "height": 2.0,
+      "depth": 12.0
+    },
+    "weight": 1.9,
+    "tags": [
+      "jacket",
+      "denim",
+      "women"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.6,
+    "review_count": 267,
+    "tax_class": "standard",
+    "created_at": "2025-10-05T09:00:00Z"
+  },
+  {
+    "id": 47,
+    "sku": "WOM-007",
+    "slug": "pearlmist-earrings",
+    "name": "PearlMist Earrings",
+    "brand": "LuxeWear",
+    "description": "Faux-pearl drop earrings with silver hooks and a delicate profile.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Women",
+    "price": 12.99,
+    "discount_price": null,
+    "cost": 2.5,
+    "stock": 40,
+    "reorder_level": 10,
+    "variants": {
+      "colors": [
+        "Silver",
+        "Gold",
+        "Rose Gold"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Jewelry macro shot of “PearlMist Earrings,” soft highlights, elegant style",
+    "dimensions": {
+      "width": 1.0,
+      "height": 2.0,
+      "depth": 0.5
+    },
+    "weight": 0.05,
+    "tags": [
+      "earrings",
+      "jewelry",
+      "women"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.8,
+    "review_count": 421,
+    "tax_class": "standard",
+    "created_at": "2025-10-10T09:00:00Z"
+  },
+  {
+    "id": 48,
+    "sku": "WOM-008",
+    "slug": "serenluxe-tote",
+    "name": "SerenLuxe Tote",
+    "brand": "LuxeWear",
+    "description": "A large structured tote bag designed for everyday carry.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Women",
+    "price": 54.99,
+    "discount_price": null,
+    "cost": 16.0,
+    "stock": 20,
+    "reorder_level": 5,
+    "variants": {
+      "colors": [
+        "Black",
+        "Camel",
+        "Navy",
+        "Ivory"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Women's tote bag named “SerenLuxe,” clean white background, studio lighting",
+    "dimensions": {
+      "width": 14.0,
+      "height": 12.0,
+      "depth": 5.0
+    },
+    "weight": 1.7,
+    "tags": [
+      "tote",
+      "bag",
+      "women"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.5,
+    "review_count": 198,
+    "tax_class": "standard",
+    "created_at": "2025-10-15T09:00:00Z"
+  },
+  {
+    "id": 49,
+    "sku": "WOM-009",
+    "slug": "bloomtrail-floral-dress",
+    "name": "BloomTrail Floral Dress",
+    "brand": "LuxeWear",
+    "description": "A light summer dress with a soft floral print and flowing silhouette.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Women",
+    "price": 34.99,
+    "discount_price": 27.99,
+    "cost": 10.0,
+    "stock": 25,
+    "reorder_level": 6,
+    "variants": {
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Floral Lavender",
+        "Floral Peach",
+        "Floral Ivory"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Women's dress named “BloomTrail,” on hanger, soft natural lighting",
+    "dimensions": {
+      "width": 12.0,
+      "height": 2.0,
+      "depth": 10.0
+    },
+    "weight": 1.0,
+    "tags": [
+      "dress",
+      "floral",
+      "women"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.3,
+    "review_count": 154,
+    "tax_class": "standard",
+    "created_at": "2025-10-20T09:00:00Z"
+  },
+  {
+    "id": 50,
+    "sku": "WOM-010",
+    "slug": "frostline-puffer-vest",
+    "name": "Frostline Puffer Vest",
+    "brand": "LuxeWear",
+    "description": "A lightweight insulated puffer vest for layering in cooler weather.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Women",
+    "price": 44.99,
+    "discount_price": null,
+    "cost": 14.0,
+    "stock": 12,
+    "reorder_level": 3,
+    "variants": {
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Midnight Black",
+        "Arctic White",
+        "Forest Green"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Women's puffer vest named “Frostline,” flatlay, winter aesthetic",
+    "dimensions": {
+      "width": 13.0,
+      "height": 3.0,
+      "depth": 11.0
+    },
+    "weight": 1.4,
+    "tags": [
+      "vest",
+      "outerwear",
+      "women"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.4,
+    "review_count": 112,
+    "tax_class": "standard",
+    "created_at": "2025-10-25T09:00:00Z"
+  },
+  {
+    "id": 51,
+    "sku": "MEN-001",
+    "slug": "ironweave-henley-shirt",
+    "name": "IronWeave Henley Shirt",
+    "brand": "ForgeWear",
+    "description": "A soft cotton Henley shirt with reinforced stitching and a classic fit.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Men",
+    "price": 24.99,
+    "discount_price": null,
+    "cost": 8.0,
+    "stock": 30,
+    "reorder_level": 8,
+    "variants": {
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
+      "colors": [
+        "Heather Gray",
+        "Navy",
+        "Olive",
+        "Black"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Men's Henley shirt named “IronWeave,” folded, neutral tones, soft lighting",
+    "dimensions": {
+      "width": 12.0,
+      "height": 2.0,
+      "depth": 10.0
+    },
+    "weight": 1.0,
+    "tags": [
+      "shirt",
+      "henley",
+      "men"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.4,
+    "review_count": 287,
+    "tax_class": "standard",
+    "created_at": "2025-10-28T09:00:00Z"
+  },
+  {
+    "id": 52,
+    "sku": "MEN-002",
+    "slug": "trailforge-boots",
+    "name": "TrailForge Boots",
+    "brand": "ForgeWear",
+    "description": "Rugged faux-leather boots designed for outdoor wear and durability.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Men",
+    "price": 69.99,
+    "discount_price": null,
+    "cost": 22.0,
+    "stock": 14,
+    "reorder_level": 4,
+    "variants": {
+      "sizes": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "colors": [
+        "Brown",
+        "Black",
+        "Tan"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Men's boots named “TrailForge,” rugged texture, dramatic lighting",
+    "dimensions": {
+      "width": 9.0,
+      "height": 6.0,
+      "depth": 13.0
+    },
+    "weight": 3.0,
+    "tags": [
+      "boots",
+      "outdoor",
+      "men"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.7,
+    "review_count": 163,
+    "tax_class": "standard",
+    "created_at": "2025-11-01T09:00:00Z"
+  },
+  {
+    "id": 53,
+    "sku": "MEN-003",
+    "slug": "metroline-messenger-bag",
+    "name": "MetroLine Messenger Bag",
+    "brand": "ForgeWear",
+    "description": "A canvas messenger bag with a padded laptop sleeve and multiple pockets.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Men",
+    "price": 39.99,
+    "discount_price": null,
+    "cost": 12.0,
+    "stock": 18,
+    "reorder_level": 5,
+    "variants": {
+      "colors": [
+        "Olive Canvas",
+        "Navy Canvas",
+        "Black Canvas"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Men's messenger bag named “MetroLine,” urban style, clean lighting",
+    "dimensions": {
+      "width": 15.0,
+      "height": 11.0,
+      "depth": 4.0
+    },
+    "weight": 2.0,
+    "tags": [
+      "bag",
+      "messenger",
+      "men"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.5,
+    "review_count": 229,
+    "tax_class": "standard",
+    "created_at": "2025-11-05T09:00:00Z"
+  },
+  {
+    "id": 54,
+    "sku": "MEN-004",
+    "slug": "aeroflex-joggers",
+    "name": "AeroFlex Joggers",
+    "brand": "ForgeWear",
+    "description": "Stretch joggers designed for comfort and mobility.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Men",
+    "price": 29.99,
+    "discount_price": null,
+    "cost": 9.0,
+    "stock": 22,
+    "reorder_level": 6,
+    "variants": {
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
+      "colors": [
+        "Charcoal",
+        "Black",
+        "Navy",
+        "Heather Gray"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Men's joggers named “AeroFlex,” folded, soft shadows",
+    "dimensions": {
+      "width": 12.0,
+      "height": 2.0,
+      "depth": 10.0
+    },
+    "weight": 1.1,
+    "tags": [
+      "joggers",
+      "pants",
+      "men"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.6,
+    "review_count": 318,
+    "tax_class": "standard",
+    "created_at": "2025-11-08T09:00:00Z"
+  },
+  {
+    "id": 55,
+    "sku": "MEN-005",
+    "slug": "titanedge-watch",
+    "name": "TitanEdge Watch",
+    "brand": "ForgeWear",
+    "description": "A brushed-steel analog watch with a minimalist dial.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Men",
+    "price": 79.99,
+    "discount_price": null,
+    "cost": 25.0,
+    "stock": 10,
+    "reorder_level": 3,
+    "variants": {
+      "colors": [
+        "Silver/Black Band",
+        "Gunmetal/Brown Band",
+        "Gold/Navy Band"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Men's watch named “TitanEdge,” macro shot, metallic highlights",
+    "dimensions": {
+      "width": 1.8,
+      "height": 0.5,
+      "depth": 9.0
+    },
+    "weight": 0.5,
+    "tags": [
+      "watch",
+      "analog",
+      "men"
+    ],
+    "active": true,
+    "featured": true,
+    "rating": 4.8,
+    "review_count": 143,
+    "tax_class": "standard",
+    "created_at": "2025-11-10T09:00:00Z"
+  },
+  {
+    "id": 56,
+    "sku": "MEN-006",
+    "slug": "northridge-parka",
+    "name": "NorthRidge Parka",
+    "brand": "ForgeWear",
+    "description": "An insulated parka with faux-fur hood for cold weather.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Men",
+    "price": 99.99,
+    "discount_price": 79.99,
+    "cost": 28.0,
+    "stock": 8,
+    "reorder_level": 2,
+    "variants": {
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
+      "colors": [
+        "Olive",
+        "Black",
+        "Navy"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Men's parka named “NorthRidge,” flatlay, winter tones",
+    "dimensions": {
+      "width": 15.0,
+      "height": 4.0,
+      "depth": 12.0
+    },
+    "weight": 3.2,
+    "tags": [
+      "parka",
+      "outerwear",
+      "men"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.5,
+    "review_count": 87,
+    "tax_class": "standard",
+    "created_at": "2025-11-12T09:00:00Z"
+  },
+  {
+    "id": 57,
+    "sku": "MEN-007",
+    "slug": "slateline-belt",
+    "name": "SlateLine Belt",
+    "brand": "ForgeWear",
+    "description": "A faux-leather belt with a brushed metal buckle.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Men",
+    "price": 14.99,
+    "discount_price": null,
+    "cost": 3.0,
+    "stock": 40,
+    "reorder_level": 10,
+    "variants": {
+      "colors": [
+        "Black",
+        "Brown",
+        "Tan"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Men's belt named “SlateLine,” coiled, clean product shot",
+    "dimensions": {
+      "width": 1.5,
+      "height": 0.5,
+      "depth": 40.0
+    },
+    "weight": 0.7,
+    "tags": [
+      "belt",
+      "accessory",
+      "men"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.2,
+    "review_count": 342,
+    "tax_class": "standard",
+    "created_at": "2025-11-15T09:00:00Z"
+  },
+  {
+    "id": 58,
+    "sku": "MEN-008",
+    "slug": "urbanwave-hoodie",
+    "name": "UrbanWave Hoodie",
+    "brand": "ForgeWear",
+    "description": "A soft fleece hoodie with a minimalist logo.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Men",
+    "price": 39.99,
+    "discount_price": null,
+    "cost": 12.0,
+    "stock": 20,
+    "reorder_level": 5,
+    "variants": {
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
+      "colors": [
+        "Charcoal",
+        "Black",
+        "Navy",
+        "Stone Gray"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Men's hoodie named “UrbanWave,” flatlay, soft lighting",
+    "dimensions": {
+      "width": 13.0,
+      "height": 3.0,
+      "depth": 11.0
+    },
+    "weight": 1.8,
+    "tags": [
+      "hoodie",
+      "sweatshirt",
+      "men"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.6,
+    "review_count": 275,
+    "tax_class": "standard",
+    "created_at": "2025-11-18T09:00:00Z"
+  },
+  {
+    "id": 59,
+    "sku": "MEN-009",
+    "slug": "stridecore-sneakers",
+    "name": "StrideCore Sneakers",
+    "brand": "ForgeWear",
+    "description": "Everyday sneakers with a cushioned sole and clean design.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Men",
+    "price": 59.99,
+    "discount_price": null,
+    "cost": 18.0,
+    "stock": 16,
+    "reorder_level": 4,
+    "variants": {
+      "sizes": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "colors": [
+        "White/Gray",
+        "Black/White",
+        "Navy/White"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Men's sneakers named “StrideCore,” floating, clean white background",
+    "dimensions": {
+      "width": 8.5,
+      "height": 4.5,
+      "depth": 12.0
+    },
+    "weight": 2.0,
+    "tags": [
+      "sneakers",
+      "casual",
+      "men"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.4,
+    "review_count": 198,
+    "tax_class": "standard",
+    "created_at": "2025-11-20T09:00:00Z"
+  },
+  {
+    "id": 60,
+    "sku": "MEN-010",
+    "slug": "harborloom-beanie",
+    "name": "HarborLoom Beanie",
+    "brand": "ForgeWear",
+    "description": "A knit beanie with a ribbed texture for cooler days.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Men",
+    "price": 11.99,
+    "discount_price": null,
+    "cost": 2.5,
+    "stock": 35,
+    "reorder_level": 8,
+    "variants": {
+      "colors": [
+        "Charcoal",
+        "Navy",
+        "Forest Green",
+        "Black",
+        "Burgundy"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Men's beanie named “HarborLoom,” folded, cozy winter lighting",
+    "dimensions": {
+      "width": 8.0,
+      "height": 2.0,
+      "depth": 8.0
+    },
+    "weight": 0.4,
+    "tags": [
+      "beanie",
+      "hat",
+      "men"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.3,
+    "review_count": 231,
+    "tax_class": "standard",
+    "created_at": "2025-11-22T09:00:00Z"
+  },
+  {
+    "id": 61,
+    "sku": "BOY-001",
+    "slug": "rocketridge-tee",
+    "name": "RocketRidge Tee",
+    "brand": "KidBolt",
+    "description": "A graphic tee with a bold rocket illustration.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Boys",
+    "price": 12.99,
+    "discount_price": null,
+    "cost": 4.0,
+    "stock": 40,
+    "reorder_level": 10,
+    "variants": {
+      "sizes": [
+        "4T",
+        "5T",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "colors": [
+        "White",
+        "Navy",
+        "Red"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Kids graphic tee named “RocketRidge,” bright colors, playful layout",
+    "dimensions": {
+      "width": 10.0,
+      "height": 1.5,
+      "depth": 8.0
+    },
+    "weight": 0.6,
+    "tags": [
+      "t-shirt",
+      "graphic",
+      "boys"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.5,
+    "review_count": 347,
+    "tax_class": "standard",
+    "created_at": "2025-11-25T09:00:00Z"
+  },
+  {
+    "id": 62,
+    "sku": "BOY-002",
+    "slug": "trailpup-sneakers",
+    "name": "TrailPup Sneakers",
+    "brand": "KidBolt",
+    "description": "Durable sneakers with reinforced toe and playful accents.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Boys",
+    "price": 29.99,
+    "discount_price": null,
+    "cost": 10.0,
+    "stock": 20,
+    "reorder_level": 5,
+    "variants": {
+      "sizes": [
+        "1Y",
+        "2Y",
+        "3Y",
+        "4Y",
+        "5Y",
+        "6Y"
+      ],
+      "colors": [
+        "Blue/Gray",
+        "Red/White",
+        "Black/Lime"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Kids sneakers named “TrailPup,” bright accents, floating pose",
+    "dimensions": {
+      "width": 7.0,
+      "height": 3.5,
+      "depth": 10.0
+    },
+    "weight": 1.2,
+    "tags": [
+      "sneakers",
+      "kids",
+      "boys"
+    ],
+    "active": true,
+    "featured": true,
+    "rating": 4.6,
+    "review_count": 213,
+    "tax_class": "standard",
+    "created_at": "2025-11-27T09:00:00Z"
+  },
+  {
+    "id": 63,
+    "sku": "BOY-003",
+    "slug": "stormguard-raincoat",
+    "name": "StormGuard Raincoat",
+    "brand": "KidBolt",
+    "description": "A waterproof raincoat with reflective strips for visibility.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Boys",
+    "price": 34.99,
+    "discount_price": 27.99,
+    "cost": 12.0,
+    "stock": 15,
+    "reorder_level": 4,
+    "variants": {
+      "sizes": [
+        "4T",
+        "5T",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "colors": [
+        "Bright Yellow",
+        "Safety Orange",
+        "Electric Blue"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Kids raincoat named “StormGuard,” bright yellow, fun style, flatlay",
+    "dimensions": {
+      "width": 11.0,
+      "height": 2.0,
+      "depth": 9.0
+    },
+    "weight": 1.3,
+    "tags": [
+      "raincoat",
+      "outerwear",
+      "boys"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.7,
+    "review_count": 128,
+    "tax_class": "standard",
+    "created_at": "2025-11-29T09:00:00Z"
+  },
+  {
+    "id": 64,
+    "sku": "BOY-004",
+    "slug": "dinostride-joggers",
+    "name": "DinoStride Joggers",
+    "brand": "KidBolt",
+    "description": "Soft joggers with a dinosaur patch and elastic cuffs.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Boys",
+    "price": 16.99,
+    "discount_price": null,
+    "cost": 5.0,
+    "stock": 30,
+    "reorder_level": 8,
+    "variants": {
+      "sizes": [
+        "4T",
+        "5T",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "colors": [
+        "Dino Green",
+        "Gray",
+        "Navy"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Kids joggers named “DinoStride,” folded, playful background",
+    "dimensions": {
+      "width": 9.0,
+      "height": 1.5,
+      "depth": 7.0
+    },
+    "weight": 0.8,
+    "tags": [
+      "joggers",
+      "pants",
+      "boys"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.8,
+    "review_count": 302,
+    "tax_class": "standard",
+    "created_at": "2025-12-01T09:00:00Z"
+  },
+  {
+    "id": 65,
+    "sku": "BOY-005",
+    "slug": "skydash-hoodie",
+    "name": "SkyDash Hoodie",
+    "brand": "KidBolt",
+    "description": "A lightweight hoodie with a sky-blue gradient design.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Boys",
+    "price": 21.99,
+    "discount_price": null,
+    "cost": 7.0,
+    "stock": 22,
+    "reorder_level": 6,
+    "variants": {
+      "sizes": [
+        "4T",
+        "5T",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "colors": [
+        "Sky Blue",
+        "Gray",
+        "Black"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Kids hoodie named “SkyDash,” flatlay, bright lighting",
+    "dimensions": {
+      "width": 10.0,
+      "height": 2.0,
+      "depth": 8.0
+    },
+    "weight": 0.9,
+    "tags": [
+      "hoodie",
+      "sweatshirt",
+      "boys"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.6,
+    "review_count": 187,
+    "tax_class": "standard",
+    "created_at": "2025-12-03T09:00:00Z"
+  },
+  {
+    "id": 66,
+    "sku": "BOY-006",
+    "slug": "adventurepack-mini-backpack",
+    "name": "AdventurePack Mini Backpack",
+    "brand": "KidBolt",
+    "description": "A small backpack with a cartoon mountain print and side pockets.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Boys",
+    "price": 24.99,
+    "discount_price": null,
+    "cost": 8.0,
+    "stock": 18,
+    "reorder_level": 5,
+    "variants": {
+      "colors": [
+        "Navy/Red",
+        "Forest Green/Orange",
+        "Gray/Yellow"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Kids backpack named “AdventurePack Mini,” colorful, clean studio shot",
+    "dimensions": {
+      "width": 9.0,
+      "height": 11.0,
+      "depth": 4.0
+    },
+    "weight": 1.1,
+    "tags": [
+      "backpack",
+      "school",
+      "boys"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.5,
+    "review_count": 143,
+    "tax_class": "standard",
+    "created_at": "2025-12-05T09:00:00Z"
+  },
+  {
+    "id": 67,
+    "sku": "BOY-007",
+    "slug": "cometcap-baseball-hat",
+    "name": "CometCap Baseball Hat",
+    "brand": "KidBolt",
+    "description": "An adjustable cap with an embroidered comet design.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Boys",
+    "price": 11.99,
+    "discount_price": null,
+    "cost": 3.0,
+    "stock": 35,
+    "reorder_level": 8,
+    "variants": {
+      "colors": [
+        "Blue",
+        "Red",
+        "Black",
+        "Gray"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Kids cap named “CometCap,” bright colors, playful shadows",
+    "dimensions": {
+      "width": 7.0,
+      "height": 4.0,
+      "depth": 8.0
+    },
+    "weight": 0.3,
+    "tags": [
+      "hat",
+      "cap",
+      "boys"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.7,
+    "review_count": 267,
+    "tax_class": "standard",
+    "created_at": "2025-12-07T09:00:00Z"
+  },
+  {
+    "id": 68,
+    "sku": "BOY-008",
+    "slug": "trailridge-cargo-shorts",
+    "name": "TrailRidge Cargo Shorts",
+    "brand": "KidBolt",
+    "description": "Cargo shorts with reinforced seams and multiple pockets.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Boys",
+    "price": 17.99,
+    "discount_price": null,
+    "cost": 6.0,
+    "stock": 28,
+    "reorder_level": 7,
+    "variants": {
+      "sizes": [
+        "4T",
+        "5T",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "colors": [
+        "Khaki",
+        "Navy",
+        "Olive",
+        "Gray"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Kids shorts named “TrailRidge,” flatlay, neutral tones",
+    "dimensions": {
+      "width": 9.0,
+      "height": 1.5,
+      "depth": 7.0
+    },
+    "weight": 0.7,
+    "tags": [
+      "shorts",
+      "cargo",
+      "boys"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.4,
+    "review_count": 198,
+    "tax_class": "standard",
+    "created_at": "2025-12-09T09:00:00Z"
+  },
+  {
+    "id": 69,
+    "sku": "BOY-009",
+    "slug": "starsprint-pajama-set",
+    "name": "StarSprint Pajama Set",
+    "brand": "KidBolt",
+    "description": "Soft pajamas with a star pattern and elastic waistband.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Boys",
+    "price": 19.99,
+    "discount_price": null,
+    "cost": 7.0,
+    "stock": 25,
+    "reorder_level": 6,
+    "variants": {
+      "sizes": [
+        "4T",
+        "5T",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "colors": [
+        "Navy Stars",
+        "Gray Stars",
+        "Blue Stars"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Kids pajamas named “StarSprint,” folded, cozy lighting",
+    "dimensions": {
+      "width": 10.0,
+      "height": 2.0,
+      "depth": 8.0
+    },
+    "weight": 0.9,
+    "tags": [
+      "pajamas",
+      "sleepwear",
+      "boys"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.8,
+    "review_count": 341,
+    "tax_class": "standard",
+    "created_at": "2025-12-11T09:00:00Z"
+  },
+  {
+    "id": 70,
+    "sku": "BOY-010",
+    "slug": "frostpaw-winter-gloves",
+    "name": "FrostPaw Winter Gloves",
+    "brand": "KidBolt",
+    "description": "Insulated gloves with a paw-print design for cold weather.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Boys",
+    "price": 13.99,
+    "discount_price": null,
+    "cost": 4.0,
+    "stock": 20,
+    "reorder_level": 5,
+    "variants": {
+      "sizes": [
+        "4T-5T",
+        "6-7",
+        "8-10",
+        "10-12"
+      ],
+      "colors": [
+        "Blue/Gray",
+        "Red/Black",
+        "Green/Black"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Kids gloves named “FrostPaw,” flatlay, winter theme",
+    "dimensions": {
+      "width": 5.0,
+      "height": 1.5,
+      "depth": 7.0
+    },
+    "weight": 0.4,
+    "tags": [
+      "gloves",
+      "winter",
+      "boys"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.5,
+    "review_count": 156,
+    "tax_class": "standard",
+    "created_at": "2025-12-13T09:00:00Z"
+  },
+  {
+    "id": 71,
+    "sku": "GIR-001",
+    "slug": "petaldream-dress",
+    "name": "PetalDream Dress",
+    "brand": "BloomKids",
+    "description": "A light, flowy dress with pastel floral print and soft lining.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Girls",
+    "price": 22.99,
+    "discount_price": null,
+    "cost": 7.0,
+    "stock": 28,
+    "reorder_level": 6,
+    "variants": {
+      "sizes": [
+        "4T",
+        "5T",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "colors": [
+        "Floral Lavender",
+        "Floral Peach",
+        "Floral Mint"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Girls floral dress named “PetalDream,” on hanger, soft natural lighting, pastel tones",
+    "dimensions": {
+      "width": 9.0,
+      "height": 1.5,
+      "depth": 7.0
+    },
+    "weight": 0.7,
+    "tags": [
+      "dress",
+      "floral",
+      "girls"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.7,
+    "review_count": 293,
+    "tax_class": "standard",
+    "created_at": "2025-12-15T09:00:00Z"
+  },
+  {
+    "id": 72,
+    "sku": "GIR-002",
+    "slug": "startwirl-skirt",
+    "name": "StarTwirl Skirt",
+    "brand": "BloomKids",
+    "description": "A glitter-accented tulle skirt with an elastic waistband.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Girls",
+    "price": 17.99,
+    "discount_price": null,
+    "cost": 5.5,
+    "stock": 32,
+    "reorder_level": 8,
+    "variants": {
+      "sizes": [
+        "4T",
+        "5T",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "colors": [
+        "Pink",
+        "Purple",
+        "Blue",
+        "Gold"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Girls tulle skirt named “StarTwirl,” sparkles, soft studio lighting, playful pastel background",
+    "dimensions": {
+      "width": 8.0,
+      "height": 1.5,
+      "depth": 7.0
+    },
+    "weight": 0.5,
+    "tags": [
+      "skirt",
+      "tulle",
+      "girls"
+    ],
+    "active": true,
+    "featured": true,
+    "rating": 4.8,
+    "review_count": 347,
+    "tax_class": "standard",
+    "created_at": "2025-12-17T09:00:00Z"
+  },
+  {
+    "id": 73,
+    "sku": "GIR-003",
+    "slug": "rainbowstride-sneakers",
+    "name": "RainbowStride Sneakers",
+    "brand": "BloomKids",
+    "description": "Color-gradient sneakers with cushioned soles for everyday play.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Girls",
+    "price": 29.99,
+    "discount_price": null,
+    "cost": 11.0,
+    "stock": 20,
+    "reorder_level": 5,
+    "variants": {
+      "sizes": [
+        "1Y",
+        "2Y",
+        "3Y",
+        "4Y",
+        "5Y",
+        "6Y"
+      ],
+      "colors": [
+        "Rainbow/White",
+        "Pink/Purple",
+        "Blue/Green"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Kids sneakers named “RainbowStride,” rainbow gradient, floating pose, clean white background",
+    "dimensions": {
+      "width": 7.0,
+      "height": 3.5,
+      "depth": 10.0
+    },
+    "weight": 1.2,
+    "tags": [
+      "sneakers",
+      "colorful",
+      "girls"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.6,
+    "review_count": 218,
+    "tax_class": "standard",
+    "created_at": "2025-12-19T09:00:00Z"
+  },
+  {
+    "id": 74,
+    "sku": "GIR-004",
+    "slug": "blossombreeze-cardigan",
+    "name": "BlossomBreeze Cardigan",
+    "brand": "BloomKids",
+    "description": "A soft knit cardigan with embroidered flowers and button front.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Girls",
+    "price": 24.99,
+    "discount_price": null,
+    "cost": 8.0,
+    "stock": 18,
+    "reorder_level": 4,
+    "variants": {
+      "sizes": [
+        "4T",
+        "5T",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "colors": [
+        "Cream",
+        "Blush Pink",
+        "Sky Blue"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Girls cardigan named “BlossomBreeze,” folded neatly, soft daylight, pastel props",
+    "dimensions": {
+      "width": 9.0,
+      "height": 1.5,
+      "depth": 7.0
+    },
+    "weight": 0.8,
+    "tags": [
+      "cardigan",
+      "knit",
+      "girls"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.7,
+    "review_count": 163,
+    "tax_class": "standard",
+    "created_at": "2025-12-20T09:00:00Z"
+  },
+  {
+    "id": 75,
+    "sku": "GIR-005",
+    "slug": "sparklestar-hairband-set",
+    "name": "SparkleStar Hairband Set",
+    "brand": "BloomKids",
+    "description": "A set of three glittery hairbands in fun colors.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Girls",
+    "price": 7.99,
+    "discount_price": null,
+    "cost": 1.8,
+    "stock": 45,
+    "reorder_level": 12,
+    "variants": {
+      "colors": [
+        "Pink/Gold/Purple",
+        "Blue/Silver/Teal",
+        "Red/Rainbow/White"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Girls hairbands named “SparkleStar,” arranged neatly, sparkles, bright playful lighting",
+    "dimensions": {
+      "width": 4.0,
+      "height": 1.0,
+      "depth": 4.0
+    },
+    "weight": 0.15,
+    "tags": [
+      "hairband",
+      "accessory",
+      "girls"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.9,
+    "review_count": 512,
+    "tax_class": "standard",
+    "created_at": "2025-12-21T09:00:00Z"
+  },
+  {
+    "id": 76,
+    "sku": "GIR-006",
+    "slug": "dreamcloud-pajama-set",
+    "name": "DreamCloud Pajama Set",
+    "brand": "BloomKids",
+    "description": "A cozy pajama set with cloud and moon pattern.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Girls",
+    "price": 19.99,
+    "discount_price": null,
+    "cost": 6.0,
+    "stock": 25,
+    "reorder_level": 6,
+    "variants": {
+      "sizes": [
+        "4T",
+        "5T",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "colors": [
+        "Lavender Clouds",
+        "Pink Moons",
+        "Mint Stars"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Girls pajamas named “DreamCloud,” folded, cozy warm lighting, bedtime theme",
+    "dimensions": {
+      "width": 9.0,
+      "height": 1.5,
+      "depth": 7.0
+    },
+    "weight": 0.9,
+    "tags": [
+      "pajamas",
+      "sleepwear",
+      "girls"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.8,
+    "review_count": 378,
+    "tax_class": "standard",
+    "created_at": "2025-12-22T09:00:00Z"
+  },
+  {
+    "id": 77,
+    "sku": "GIR-007",
+    "slug": "floratrail-backpack",
+    "name": "FloraTrail Backpack",
+    "brand": "BloomKids",
+    "description": "A mini backpack with floral print and side pockets.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Girls",
+    "price": 27.99,
+    "discount_price": null,
+    "cost": 9.0,
+    "stock": 16,
+    "reorder_level": 4,
+    "variants": {
+      "colors": [
+        "Floral Pink",
+        "Floral Blue",
+        "Floral Mint"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Kids floral backpack named “FloraTrail,” bright colors, clean studio shot",
+    "dimensions": {
+      "width": 9.0,
+      "height": 11.0,
+      "depth": 4.0
+    },
+    "weight": 1.1,
+    "tags": [
+      "backpack",
+      "school",
+      "girls"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.6,
+    "review_count": 142,
+    "tax_class": "standard",
+    "created_at": "2025-12-23T09:00:00Z"
+  },
+  {
+    "id": 78,
+    "sku": "GIR-008",
+    "slug": "sunbeam-sandals",
+    "name": "Sunbeam Sandals",
+    "brand": "BloomKids",
+    "description": "Lightweight sandals with adjustable straps and soft footbed.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Girls",
+    "price": 18.99,
+    "discount_price": null,
+    "cost": 6.5,
+    "stock": 22,
+    "reorder_level": 5,
+    "variants": {
+      "sizes": [
+        "1Y",
+        "2Y",
+        "3Y",
+        "4Y",
+        "5Y",
+        "6Y"
+      ],
+      "colors": [
+        "Gold",
+        "Pink",
+        "White"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Girls sandals named “Sunbeam,” pastel tones, soft shadows, summer theme",
+    "dimensions": {
+      "width": 6.5,
+      "height": 2.5,
+      "depth": 9.0
+    },
+    "weight": 0.8,
+    "tags": [
+      "sandals",
+      "summer",
+      "girls"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.5,
+    "review_count": 229,
+    "tax_class": "standard",
+    "created_at": "2025-12-24T09:00:00Z"
+  },
+  {
+    "id": 79,
+    "sku": "GIR-009",
+    "slug": "twinklecharm-bracelet",
+    "name": "TwinkleCharm Bracelet",
+    "brand": "BloomKids",
+    "description": "A beaded bracelet with star and heart charms.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Girls",
+    "price": 6.99,
+    "discount_price": null,
+    "cost": 1.2,
+    "stock": 50,
+    "reorder_level": 12,
+    "variants": {
+      "colors": [
+        "Pink/Gold",
+        "Blue/Silver",
+        "Purple/Rose Gold"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Kids charm bracelet named “TwinkleCharm,” macro shot, sparkly beads, cute aesthetic",
+    "dimensions": {
+      "width": 3.0,
+      "height": 0.5,
+      "depth": 3.0
+    },
+    "weight": 0.1,
+    "tags": [
+      "bracelet",
+      "jewelry",
+      "girls"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.7,
+    "review_count": 445,
+    "tax_class": "standard",
+    "created_at": "2025-12-25T09:00:00Z"
+  },
+  {
+    "id": 80,
+    "sku": "GIR-010",
+    "slug": "frostpetal-winter-coat",
+    "name": "FrostPetal Winter Coat",
+    "brand": "BloomKids",
+    "description": "An insulated winter coat with faux-fur hood trim and floral lining.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Girls",
+    "price": 44.99,
+    "discount_price": null,
+    "cost": 14.0,
+    "stock": 12,
+    "reorder_level": 3,
+    "variants": {
+      "sizes": [
+        "4T",
+        "5T",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "colors": [
+        "Blush Pink",
+        "Ivory",
+        "Lavender"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Girls winter coat named “FrostPetal,” flatlay, soft winter lighting, cozy textures",
+    "dimensions": {
+      "width": 11.0,
+      "height": 3.0,
+      "depth": 9.0
+    },
+    "weight": 1.9,
+    "tags": [
+      "coat",
+      "winter",
+      "girls"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.4,
+    "review_count": 98,
+    "tax_class": "standard",
+    "created_at": "2025-12-26T09:00:00Z"
+  },
+  {
+    "id": 81,
+    "sku": "COS-011",
+    "slug": "auroral-eye-cream",
+    "name": "Auroral Eye Cream",
+    "brand": "Auroral",
+    "description": "A brightening eye cream with peptide complex to reduce puffiness and dark circles.",
+    "category": "Cosmetics & Skincare",
+    "subcategory": "Eye Care",
+    "price": 26.99,
+    "discount_price": null,
+    "cost": 7.0,
+    "stock": 35,
+    "reorder_level": 8,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Minimalist eye cream jar labeled 'Auroral Eye Cream,' cool-toned glass, clean beauty studio shot",
+    "dimensions": {
+      "width": 2.0,
+      "height": 2.5,
+      "depth": 2.0
+    },
+    "weight": 0.3,
+    "tags": [
+      "eye cream",
+      "brightening",
+      "anti-puffiness"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.6,
+    "review_count": 189,
+    "tax_class": "standard",
+    "created_at": "2025-02-15T09:00:00Z"
+  },
+  {
+    "id": 82,
+    "sku": "COS-012",
+    "slug": "roseveil-toner",
+    "name": "RoseVeil Toner",
+    "brand": "RoseVeil",
+    "description": "A hydrating rose water toner that balances pH and preps skin for serum.",
+    "category": "Cosmetics & Skincare",
+    "subcategory": "Toner",
+    "price": 16.99,
+    "discount_price": null,
+    "cost": 3.8,
+    "stock": 48,
+    "reorder_level": 12,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Pink glass bottle labeled 'RoseVeil Toner,' rose petals around it, clean pastel background",
+    "dimensions": {
+      "width": 2.5,
+      "height": 6.0,
+      "depth": 2.5
+    },
+    "weight": 0.6,
+    "tags": [
+      "toner",
+      "rose water",
+      "hydrating"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.4,
+    "review_count": 231,
+    "tax_class": "standard",
+    "created_at": "2025-02-18T09:00:00Z"
+  },
+  {
+    "id": 83,
+    "sku": "COS-013",
+    "slug": "dewdrop-hydration-mask",
+    "name": "Dewdrop Hydration Mask",
+    "brand": "Dewdrop",
+    "description": "A deep-moisture overnight mask with hyaluronic acid and ceramides.",
+    "category": "Cosmetics & Skincare",
+    "subcategory": "Mask",
+    "price": 22.99,
+    "discount_price": 18.99,
+    "cost": 5.5,
+    "stock": 27,
+    "reorder_level": 7,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Frosted blue jar labeled 'Dewdrop Hydration Mask,' water droplets, dewy aesthetic, soft lighting",
+    "dimensions": {
+      "width": 3.0,
+      "height": 2.8,
+      "depth": 3.0
+    },
+    "weight": 0.5,
+    "tags": [
+      "mask",
+      "overnight",
+      "hydrating"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.7,
+    "review_count": 142,
+    "tax_class": "standard",
+    "created_at": "2025-02-22T09:00:00Z"
+  },
+  {
+    "id": 84,
+    "sku": "COS-014",
+    "slug": "glowrite-vitamin-c-serum",
+    "name": "GlowRite Vitamin C Serum",
+    "brand": "GlowRite",
+    "description": "A potent Vitamin C serum that targets hyperpigmentation and boosts radiance.",
+    "category": "Cosmetics & Skincare",
+    "subcategory": "Serum",
+    "price": 34.99,
+    "discount_price": null,
+    "cost": 9.0,
+    "stock": 20,
+    "reorder_level": 6,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Amber glass dropper bottle labeled 'GlowRite Vitamin C Serum,' citrus slices, bright studio lighting",
+    "dimensions": {
+      "width": 1.8,
+      "height": 4.8,
+      "depth": 1.8
+    },
+    "weight": 0.35,
+    "tags": [
+      "serum",
+      "vitamin C",
+      "brightening",
+      "hyperpigmentation"
+    ],
+    "active": true,
+    "featured": true,
+    "rating": 4.8,
+    "review_count": 376,
+    "tax_class": "standard",
+    "created_at": "2025-03-01T09:00:00Z"
+  },
+  {
+    "id": 85,
+    "sku": "COS-015",
+    "slug": "midnightbloom-eye-serum",
+    "name": "MidnightBloom Eye Serum",
+    "brand": "MidnightBloom",
+    "description": "A rare limited-edition eye serum with black orchid extract. Currently sold out.",
+    "category": "Cosmetics & Skincare",
+    "subcategory": "Eye Care",
+    "price": 44.99,
+    "discount_price": null,
+    "cost": 12.0,
+    "stock": 0,
+    "reorder_level": 5,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Dark glass dropper labeled 'MidnightBloom Eye Serum,' black orchid flower, moody luxury lighting",
+    "dimensions": {
+      "width": 1.5,
+      "height": 4.0,
+      "depth": 1.5
+    },
+    "weight": 0.2,
+    "tags": [
+      "eye serum",
+      "luxury",
+      "limited edition",
+      "orchid"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.9,
+    "review_count": 53,
+    "tax_class": "standard",
+    "created_at": "2025-03-08T09:00:00Z"
+  },
+  {
+    "id": 86,
+    "sku": "COS-016",
+    "slug": "silkveil-primer",
+    "name": "SilkVeil Primer",
+    "brand": "SilkVeil",
+    "description": "A silky pore-minimizing primer that creates a smooth base for makeup.",
+    "category": "Cosmetics & Skincare",
+    "subcategory": "Primer",
+    "price": 20.99,
+    "discount_price": null,
+    "cost": 4.5,
+    "stock": 44,
+    "reorder_level": 10,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Sleek white tube labeled 'SilkVeil Primer,' smooth satin texture, clean minimalist shot",
+    "dimensions": {
+      "width": 2.0,
+      "height": 5.5,
+      "depth": 1.5
+    },
+    "weight": 0.3,
+    "tags": [
+      "primer",
+      "pore minimizing",
+      "makeup base"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.5,
+    "review_count": 208,
+    "tax_class": "standard",
+    "created_at": "2025-03-12T09:00:00Z"
+  },
+  {
+    "id": 87,
+    "sku": "COS-017",
+    "slug": "oceanbreeze-exfoliator",
+    "name": "OceanBreeze Exfoliator",
+    "brand": "OceanBreeze",
+    "description": "A gentle sea-salt face scrub that removes dead skin without irritation.",
+    "category": "Cosmetics & Skincare",
+    "subcategory": "Exfoliator",
+    "price": 17.99,
+    "discount_price": null,
+    "cost": 4.0,
+    "stock": 38,
+    "reorder_level": 9,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Teal tube labeled 'OceanBreeze Exfoliator,' sea salt crystals, ocean-inspired aesthetic",
+    "dimensions": {
+      "width": 2.0,
+      "height": 5.0,
+      "depth": 2.0
+    },
+    "weight": 0.5,
+    "tags": [
+      "exfoliator",
+      "sea salt",
+      "scrub",
+      "gentle"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.3,
+    "review_count": 174,
+    "tax_class": "standard",
+    "created_at": "2025-03-18T09:00:00Z"
+  },
+  {
+    "id": 88,
+    "sku": "COS-018",
+    "slug": "nectarglow-bb-cream",
+    "name": "NectarGlow BB Cream",
+    "brand": "NectarGlow",
+    "description": "A lightweight BB cream with SPF 20 that evens tone and hydrates skin.",
+    "category": "Cosmetics & Skincare",
+    "subcategory": "Foundation",
+    "price": 23.99,
+    "discount_price": null,
+    "cost": 5.8,
+    "stock": 30,
+    "reorder_level": 8,
+    "variants": {
+      "shades": [
+        "Fair",
+        "Light",
+        "Medium",
+        "Tan",
+        "Deep"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Soft beige tube labeled 'NectarGlow BB Cream,' honeycomb texture, warm golden lighting",
+    "dimensions": {
+      "width": 2.0,
+      "height": 5.5,
+      "depth": 1.5
+    },
+    "weight": 0.3,
+    "tags": [
+      "BB cream",
+      "SPF",
+      "foundation",
+      "tinted moisturizer"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.4,
+    "review_count": 312,
+    "tax_class": "standard",
+    "created_at": "2025-03-22T09:00:00Z"
+  },
+  {
+    "id": 89,
+    "sku": "COS-019",
+    "slug": "puredew-micellar-water",
+    "name": "PureDew Micellar Water",
+    "brand": "PureDew",
+    "description": "A gentle micellar water that removes makeup and impurities without rinsing.",
+    "category": "Cosmetics & Skincare",
+    "subcategory": "Cleanser",
+    "price": 13.99,
+    "discount_price": null,
+    "cost": 3.0,
+    "stock": 52,
+    "reorder_level": 12,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Clear bottle labeled 'PureDew Micellar Water,' water droplets, clean clinical aesthetic",
+    "dimensions": {
+      "width": 3.0,
+      "height": 7.0,
+      "depth": 3.0
+    },
+    "weight": 0.8,
+    "tags": [
+      "micellar water",
+      "cleanser",
+      "makeup remover"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.6,
+    "review_count": 428,
+    "tax_class": "standard",
+    "created_at": "2025-03-28T09:00:00Z"
+  },
+  {
+    "id": 90,
+    "sku": "COS-020",
+    "slug": "terracotta-bronze-powder",
+    "name": "Terracotta Bronze Powder",
+    "brand": "Terracotta Glow",
+    "description": "A warm-toned bronzing powder with a sun-kissed finish and buildable coverage.",
+    "category": "Cosmetics & Skincare",
+    "subcategory": "Makeup",
+    "price": 19.99,
+    "discount_price": null,
+    "cost": 4.5,
+    "stock": 36,
+    "reorder_level": 9,
+    "variants": {
+      "shades": [
+        "Sun Dune",
+        "Warm Honey",
+        "Deep Bronze"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Round compact labeled 'Terracotta Bronze Powder,' warm terra tones, soft sunlit product shot",
+    "dimensions": {
+      "width": 3.5,
+      "height": 0.8,
+      "depth": 3.5
+    },
+    "weight": 0.2,
+    "tags": [
+      "bronzer",
+      "makeup",
+      "powder",
+      "sun-kissed"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.5,
+    "review_count": 267,
+    "tax_class": "standard",
+    "created_at": "2025-04-02T09:00:00Z"
+  },
+  {
+    "id": 91,
+    "sku": "ELE-011",
+    "slug": "novascan-fingerprint-stand",
+    "name": "NovaScan Fingerprint Stand",
+    "brand": "NovaScan",
+    "description": "A desktop phone stand with biometric fingerprint lock for secure file access.",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Peripherals",
+    "price": 44.99,
+    "discount_price": null,
+    "cost": 13.0,
+    "stock": 22,
+    "reorder_level": 5,
+    "variants": {
+      "colors": [
+        "Space Gray",
+        "Matte Black"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Sleek phone stand named 'NovaScan,' fingerprint sensor glow, minimal desk setup",
+    "dimensions": {
+      "width": 4.0,
+      "height": 6.0,
+      "depth": 3.0
+    },
+    "weight": 0.6,
+    "tags": [
+      "phone stand",
+      "fingerprint",
+      "desk",
+      "security"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.3,
+    "review_count": 97,
+    "tax_class": "standard",
+    "created_at": "2025-04-08T09:00:00Z"
+  },
+  {
+    "id": 92,
+    "sku": "ELE-012",
+    "slug": "zenflow-smart-desk-lamp",
+    "name": "ZenFlow Smart Desk Lamp",
+    "brand": "ZenFlow",
+    "description": "A touch-dimmable desk lamp with circadian lighting modes and USB-C charging port.",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Lighting",
+    "price": 54.99,
+    "discount_price": 44.99,
+    "cost": 17.0,
+    "stock": 18,
+    "reorder_level": 4,
+    "variants": {
+      "colors": [
+        "White",
+        "Matte Black",
+        "Warm Wood"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Minimalist desk lamp named 'ZenFlow,' warm gradient light, clean desk aesthetic",
+    "dimensions": {
+      "width": 5.0,
+      "height": 15.0,
+      "depth": 5.0
+    },
+    "weight": 1.4,
+    "tags": [
+      "desk lamp",
+      "smart",
+      "dimmable",
+      "USB-C"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.7,
+    "review_count": 183,
+    "tax_class": "standard",
+    "created_at": "2025-04-12T09:00:00Z"
+  },
+  {
+    "id": 93,
+    "sku": "ELE-013",
+    "slug": "pixelpod-action-camera",
+    "name": "PixelPod Action Camera",
+    "brand": "PixelPod",
+    "description": "A compact 4K action camera with waterproof casing and image stabilization.",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Camera",
+    "price": 119.99,
+    "discount_price": null,
+    "cost": 36.0,
+    "stock": 9,
+    "reorder_level": 3,
+    "variants": {
+      "colors": [
+        "Black",
+        "Electric Blue",
+        "Coral Red"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Compact action camera named 'PixelPod,' underwater shot, bubbles, adventure aesthetic",
+    "dimensions": {
+      "width": 2.5,
+      "height": 1.8,
+      "depth": 4.5
+    },
+    "weight": 0.9,
+    "tags": [
+      "action camera",
+      "4K",
+      "waterproof",
+      "camera"
+    ],
+    "active": true,
+    "featured": true,
+    "rating": 4.6,
+    "review_count": 248,
+    "tax_class": "standard",
+    "created_at": "2025-04-18T09:00:00Z"
+  },
+  {
+    "id": 94,
+    "sku": "ELE-014",
+    "slug": "soundwave-over-ear-headphones",
+    "name": "SoundWave Over-Ear Headphones",
+    "brand": "SoundWave",
+    "description": "Premium over-ear headphones with active noise cancellation and 40-hour battery.",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Audio",
+    "price": 139.99,
+    "discount_price": 109.99,
+    "cost": 42.0,
+    "stock": 11,
+    "reorder_level": 3,
+    "variants": {
+      "colors": [
+        "Midnight Black",
+        "Ivory White",
+        "Slate Blue"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Over-ear headphones named 'SoundWave,' floating render, dramatic lighting, premium audio style",
+    "dimensions": {
+      "width": 7.0,
+      "height": 8.0,
+      "depth": 3.5
+    },
+    "weight": 0.9,
+    "tags": [
+      "headphones",
+      "noise cancelling",
+      "wireless",
+      "audio"
+    ],
+    "active": true,
+    "featured": true,
+    "rating": 4.8,
+    "review_count": 412,
+    "tax_class": "standard",
+    "created_at": "2025-04-22T09:00:00Z"
+  },
+  {
+    "id": 95,
+    "sku": "ELE-015",
+    "slug": "aquashield-waterproof-phone-pouch",
+    "name": "AquaShield Waterproof Phone Pouch",
+    "brand": "AquaShield",
+    "description": "A universal waterproof phone pouch for beach and water sports use. Sold out.",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Accessories",
+    "price": 14.99,
+    "discount_price": null,
+    "cost": 3.5,
+    "stock": 0,
+    "reorder_level": 15,
+    "variants": {
+      "colors": [
+        "Clear/Blue",
+        "Clear/Orange",
+        "All Clear"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Waterproof phone pouch named 'AquaShield,' underwater shot, tropical water background",
+    "dimensions": {
+      "width": 4.5,
+      "height": 9.0,
+      "depth": 0.5
+    },
+    "weight": 0.15,
+    "tags": [
+      "waterproof",
+      "phone pouch",
+      "beach",
+      "summer"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.2,
+    "review_count": 634,
+    "tax_class": "standard",
+    "created_at": "2025-04-28T09:00:00Z"
+  },
+  {
+    "id": 96,
+    "sku": "ELE-016",
+    "slug": "gridsync-4-port-usb-charger",
+    "name": "GridSync 4-Port USB Charger",
+    "brand": "GridSync",
+    "description": "A compact 4-port desktop USB-A/C charger with smart power distribution.",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Power",
+    "price": 29.99,
+    "discount_price": null,
+    "cost": 8.5,
+    "stock": 45,
+    "reorder_level": 10,
+    "variants": {
+      "colors": [
+        "White",
+        "Black"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Compact USB charger named 'GridSync,' cables connected, clean tech product shot",
+    "dimensions": {
+      "width": 3.0,
+      "height": 1.5,
+      "depth": 3.0
+    },
+    "weight": 0.4,
+    "tags": [
+      "USB charger",
+      "multi-port",
+      "desk",
+      "power"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.5,
+    "review_count": 389,
+    "tax_class": "standard",
+    "created_at": "2025-05-02T09:00:00Z"
+  },
+  {
+    "id": 97,
+    "sku": "ELE-017",
+    "slug": "lumaview-dash-cam",
+    "name": "LumaView Dash Cam",
+    "brand": "LumaView",
+    "description": "A front-facing 1080p dash cam with night vision and loop recording.",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Camera",
+    "price": 69.99,
+    "discount_price": null,
+    "cost": 21.0,
+    "stock": 14,
+    "reorder_level": 4,
+    "variants": {
+      "colors": [
+        "Matte Black"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Compact dash cam named 'LumaView,' mounted on windshield, road shot, night vision glow",
+    "dimensions": {
+      "width": 3.5,
+      "height": 2.5,
+      "depth": 2.0
+    },
+    "weight": 0.5,
+    "tags": [
+      "dash cam",
+      "1080p",
+      "night vision",
+      "camera"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.4,
+    "review_count": 176,
+    "tax_class": "standard",
+    "created_at": "2025-05-06T09:00:00Z"
+  },
+  {
+    "id": 98,
+    "sku": "ELE-018",
+    "slug": "zencharge-wireless-pad",
+    "name": "ZenCharge Wireless Pad",
+    "brand": "ZenCharge",
+    "description": "A 15W fast wireless charging pad with multi-device compatibility.",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Power",
+    "price": 24.99,
+    "discount_price": null,
+    "cost": 7.0,
+    "stock": 38,
+    "reorder_level": 10,
+    "variants": {
+      "colors": [
+        "White",
+        "Black",
+        "Warm Wood"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Round wireless charger named 'ZenCharge,' phone resting, soft LED glow, minimal desk",
+    "dimensions": {
+      "width": 4.0,
+      "height": 0.5,
+      "depth": 4.0
+    },
+    "weight": 0.4,
+    "tags": [
+      "wireless charger",
+      "fast charge",
+      "15W"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.6,
+    "review_count": 521,
+    "tax_class": "standard",
+    "created_at": "2025-05-10T09:00:00Z"
+  },
+  {
+    "id": 99,
+    "sku": "ELE-019",
+    "slug": "skywatch-smart-band",
+    "name": "SkyWatch Smart Band",
+    "brand": "SkyWatch",
+    "description": "A slim fitness tracker with heart rate monitor, sleep tracking, and 7-day battery.",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Wearable",
+    "price": 49.99,
+    "discount_price": null,
+    "cost": 15.0,
+    "stock": 24,
+    "reorder_level": 6,
+    "variants": {
+      "colors": [
+        "Midnight Black",
+        "Arctic White",
+        "Ocean Blue",
+        "Rose"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Slim fitness band named 'SkyWatch,' wrist render, health metrics display, sporty aesthetic",
+    "dimensions": {
+      "width": 1.0,
+      "height": 0.5,
+      "depth": 9.0
+    },
+    "weight": 0.25,
+    "tags": [
+      "fitness tracker",
+      "smart band",
+      "heart rate",
+      "wearable"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.4,
+    "review_count": 298,
+    "tax_class": "standard",
+    "created_at": "2025-05-14T09:00:00Z"
+  },
+  {
+    "id": 100,
+    "sku": "ELE-020",
+    "slug": "vaultkey-smart-lock",
+    "name": "VaultKey Smart Lock",
+    "brand": "VaultKey",
+    "description": "A Bluetooth padlock with app control, keypad, and tamper alerts.",
+    "category": "Electronics & Gadgets",
+    "subcategory": "Smart Home",
+    "price": 59.99,
+    "discount_price": null,
+    "cost": 18.0,
+    "stock": 16,
+    "reorder_level": 4,
+    "variants": {
+      "colors": [
+        "Gunmetal",
+        "Silver"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Smart padlock named 'VaultKey,' keypad glowing, dramatic security product shot",
+    "dimensions": {
+      "width": 2.5,
+      "height": 4.0,
+      "depth": 1.5
+    },
+    "weight": 0.7,
+    "tags": [
+      "smart lock",
+      "bluetooth",
+      "security",
+      "padlock"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.3,
+    "review_count": 143,
+    "tax_class": "standard",
+    "created_at": "2025-05-18T09:00:00Z"
+  },
+  {
+    "id": 101,
+    "sku": "TOY-011",
+    "slug": "crystaldragon-figure",
+    "name": "CrystalDragon Figure",
+    "brand": "CollectaFig",
+    "description": "A translucent crystal dragon figurine with iridescent scale detail.",
+    "category": "Toys & Collectibles",
+    "subcategory": "Figurine",
+    "price": 36.99,
+    "discount_price": null,
+    "cost": 11.0,
+    "stock": 14,
+    "reorder_level": 3,
+    "variants": {
+      "colors": [
+        "Crystal Blue",
+        "Amethyst",
+        "Emerald"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Translucent dragon figurine named 'CrystalDragon,' prismatic light effect, dark background",
+    "dimensions": {
+      "width": 5.0,
+      "height": 6.0,
+      "depth": 4.0
+    },
+    "weight": 0.9,
+    "tags": [
+      "figurine",
+      "dragon",
+      "fantasy",
+      "crystal"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.8,
+    "review_count": 193,
+    "tax_class": "standard",
+    "created_at": "2025-06-02T09:00:00Z"
+  },
+  {
+    "id": 102,
+    "sku": "TOY-012",
+    "slug": "lunarbear-plush",
+    "name": "LunarBear Plush",
+    "brand": "PlushWorld",
+    "description": "A silvery-white bear plush with crescent moon embroidery on its ear.",
+    "category": "Toys & Collectibles",
+    "subcategory": "Plush",
+    "price": 16.99,
+    "discount_price": null,
+    "cost": 4.5,
+    "stock": 42,
+    "reorder_level": 10,
+    "variants": null,
+    "images": [],
+    "image_prompt": "White bear plush named 'LunarBear,' crescent moon detail, soft moonlit lighting",
+    "dimensions": {
+      "width": 7.0,
+      "height": 8.0,
+      "depth": 6.0
+    },
+    "weight": 0.5,
+    "tags": [
+      "plush",
+      "bear",
+      "moon",
+      "kids"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.9,
+    "review_count": 387,
+    "tax_class": "standard",
+    "created_at": "2025-06-06T09:00:00Z"
+  },
+  {
+    "id": 103,
+    "sku": "TOY-013",
+    "slug": "ironclaw-robot-toy",
+    "name": "IronClaw Robot Toy",
+    "brand": "BotWorks",
+    "description": "A poseable diecast robot toy with articulated claws and light-up eyes.",
+    "category": "Toys & Collectibles",
+    "subcategory": "Figurine",
+    "price": 22.99,
+    "discount_price": 17.99,
+    "cost": 7.0,
+    "stock": 26,
+    "reorder_level": 6,
+    "variants": {
+      "colors": [
+        "Silver/Red",
+        "Gunmetal/Blue",
+        "Black/Yellow"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Diecast robot toy named 'IronClaw,' glowing eyes, industrial background, dynamic pose",
+    "dimensions": {
+      "width": 4.0,
+      "height": 7.0,
+      "depth": 3.0
+    },
+    "weight": 0.85,
+    "tags": [
+      "robot",
+      "toy",
+      "diecast",
+      "kids"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.5,
+    "review_count": 214,
+    "tax_class": "standard",
+    "created_at": "2025-06-10T09:00:00Z"
+  },
+  {
+    "id": 104,
+    "sku": "TOY-014",
+    "slug": "astrobase-diorama-kit",
+    "name": "AstroBase Diorama Kit",
+    "brand": "BotWorks",
+    "description": "A build-it-yourself space station diorama kit with LED lighting included.",
+    "category": "Toys & Collectibles",
+    "subcategory": "Kit",
+    "price": 42.99,
+    "discount_price": null,
+    "cost": 13.0,
+    "stock": 9,
+    "reorder_level": 3,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Space station diorama kit named 'AstroBase,' assembled with LED glow, dark space background",
+    "dimensions": {
+      "width": 10.0,
+      "height": 8.0,
+      "depth": 10.0
+    },
+    "weight": 1.5,
+    "tags": [
+      "diorama",
+      "space",
+      "kit",
+      "DIY"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.6,
+    "review_count": 78,
+    "tax_class": "standard",
+    "created_at": "2025-06-14T09:00:00Z"
+  },
+  {
+    "id": 105,
+    "sku": "TOY-015",
+    "slug": "wishfairy-plush",
+    "name": "WishFairy Plush",
+    "brand": "PlushWorld",
+    "description": "A glittery fairy plush with iridescent wings and a tiny star wand.",
+    "category": "Toys & Collectibles",
+    "subcategory": "Plush",
+    "price": 17.99,
+    "discount_price": null,
+    "cost": 5.0,
+    "stock": 38,
+    "reorder_level": 10,
+    "variants": {
+      "colors": [
+        "Pink/Gold",
+        "Blue/Silver",
+        "Lavender/Rose Gold"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Fairy plush named 'WishFairy,' glittery wings, sparkles, magical soft lighting",
+    "dimensions": {
+      "width": 5.0,
+      "height": 9.0,
+      "depth": 4.0
+    },
+    "weight": 0.4,
+    "tags": [
+      "plush",
+      "fairy",
+      "girls",
+      "magical"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.8,
+    "review_count": 341,
+    "tax_class": "standard",
+    "created_at": "2025-06-18T09:00:00Z"
+  },
+  {
+    "id": 106,
+    "sku": "TOY-016",
+    "slug": "shadowwolf-statue",
+    "name": "ShadowWolf Statue",
+    "brand": "CollectaFig",
+    "description": "A detailed howling wolf statue with obsidian-finish and glowing amber eyes.",
+    "category": "Toys & Collectibles",
+    "subcategory": "Statue",
+    "price": 38.99,
+    "discount_price": null,
+    "cost": 11.5,
+    "stock": 11,
+    "reorder_level": 3,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Black wolf statue named 'ShadowWolf,' obsidian texture, amber glow eyes, moonlit fog background",
+    "dimensions": {
+      "width": 4.0,
+      "height": 7.0,
+      "depth": 5.0
+    },
+    "weight": 1.4,
+    "tags": [
+      "statue",
+      "wolf",
+      "fantasy",
+      "collectible"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.7,
+    "review_count": 112,
+    "tax_class": "standard",
+    "created_at": "2025-06-22T09:00:00Z"
+  },
+  {
+    "id": 107,
+    "sku": "TOY-017",
+    "slug": "prismarex-dinosaur-figure",
+    "name": "PrismaRex Dinosaur Figure",
+    "brand": "BotWorks",
+    "description": "A limited-edition holographic T-Rex figure with color-shifting scales. Sold out.",
+    "category": "Toys & Collectibles",
+    "subcategory": "Figurine",
+    "price": 49.99,
+    "discount_price": null,
+    "cost": 15.0,
+    "stock": 0,
+    "reorder_level": 4,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Holographic dinosaur figurine named 'PrismaRex,' color-shifting scales, dramatic display lighting",
+    "dimensions": {
+      "width": 6.0,
+      "height": 5.0,
+      "depth": 9.0
+    },
+    "weight": 1.1,
+    "tags": [
+      "figurine",
+      "dinosaur",
+      "holographic",
+      "limited edition"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.9,
+    "review_count": 64,
+    "tax_class": "standard",
+    "created_at": "2025-06-26T09:00:00Z"
+  },
+  {
+    "id": 108,
+    "sku": "TOY-018",
+    "slug": "cloudpuff-plush",
+    "name": "CloudPuff Plush",
+    "brand": "PlushWorld",
+    "description": "An oversized cumulus cloud plush in soft white with a sleepy face.",
+    "category": "Toys & Collectibles",
+    "subcategory": "Plush",
+    "price": 19.99,
+    "discount_price": null,
+    "cost": 5.5,
+    "stock": 44,
+    "reorder_level": 10,
+    "variants": null,
+    "images": [],
+    "image_prompt": "White cloud plush named 'CloudPuff,' sleepy face embroidery, pastel sky background",
+    "dimensions": {
+      "width": 9.0,
+      "height": 5.0,
+      "depth": 7.0
+    },
+    "weight": 0.5,
+    "tags": [
+      "plush",
+      "cloud",
+      "oversized",
+      "cute"
+    ],
+    "active": true,
+    "featured": true,
+    "rating": 4.9,
+    "review_count": 512,
+    "tax_class": "standard",
+    "created_at": "2025-07-01T09:00:00Z"
+  },
+  {
+    "id": 109,
+    "sku": "TOY-019",
+    "slug": "voidknight-figurine",
+    "name": "VoidKnight Figurine",
+    "brand": "CollectaFig",
+    "description": "An armored knight figure in matte obsidian with a void-crystal sword.",
+    "category": "Toys & Collectibles",
+    "subcategory": "Figurine",
+    "price": 33.99,
+    "discount_price": 27.99,
+    "cost": 10.0,
+    "stock": 15,
+    "reorder_level": 4,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Dark knight figurine named 'VoidKnight,' obsidian armor, glowing sword, dramatic fantasy lighting",
+    "dimensions": {
+      "width": 3.0,
+      "height": 7.0,
+      "depth": 3.0
+    },
+    "weight": 0.8,
+    "tags": [
+      "figurine",
+      "knight",
+      "fantasy",
+      "collectible"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.7,
+    "review_count": 138,
+    "tax_class": "standard",
+    "created_at": "2025-07-05T09:00:00Z"
+  },
+  {
+    "id": 110,
+    "sku": "TOY-020",
+    "slug": "snugmole-plush",
+    "name": "SnugMole Plush",
+    "brand": "PlushWorld",
+    "description": "A tiny velvet mole plush with a little golden shovel and sleepy expression.",
+    "category": "Toys & Collectibles",
+    "subcategory": "Plush",
+    "price": 12.99,
+    "discount_price": null,
+    "cost": 3.5,
+    "stock": 50,
+    "reorder_level": 12,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Small mole plush named 'SnugMole,' velvet texture, tiny golden shovel, cozy earth-tone background",
+    "dimensions": {
+      "width": 4.0,
+      "height": 5.0,
+      "depth": 4.0
+    },
+    "weight": 0.3,
+    "tags": [
+      "plush",
+      "mole",
+      "cute",
+      "kids"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.8,
+    "review_count": 276,
+    "tax_class": "standard",
+    "created_at": "2025-07-09T09:00:00Z"
+  },
+  {
+    "id": 111,
+    "sku": "HOM-011",
+    "slug": "marbleflow-soap-dispenser",
+    "name": "MarbleFlow Soap Dispenser",
+    "brand": "MarbleFlow",
+    "description": "A marble-finish ceramic soap dispenser with a matte brass pump.",
+    "category": "Home Goods & Decor",
+    "subcategory": "Bathroom",
+    "price": 22.99,
+    "discount_price": null,
+    "cost": 6.5,
+    "stock": 30,
+    "reorder_level": 7,
+    "variants": {
+      "colors": [
+        "White Marble",
+        "Black Marble",
+        "Gray Marble"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Marble ceramic soap dispenser named 'MarbleFlow,' brass pump, spa bathroom aesthetic",
+    "dimensions": {
+      "width": 3.0,
+      "height": 7.0,
+      "depth": 3.0
+    },
+    "weight": 0.8,
+    "tags": [
+      "soap dispenser",
+      "marble",
+      "bathroom",
+      "decor"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.5,
+    "review_count": 267,
+    "tax_class": "standard",
+    "created_at": "2025-07-22T09:00:00Z"
+  },
+  {
+    "id": 112,
+    "sku": "HOM-012",
+    "slug": "fernnest-terrarium-vase",
+    "name": "FernNest Terrarium Vase",
+    "brand": "FernNest",
+    "description": "A geometric glass terrarium vase for succulents or decorative moss.",
+    "category": "Home Goods & Decor",
+    "subcategory": "Planter",
+    "price": 24.99,
+    "discount_price": null,
+    "cost": 7.5,
+    "stock": 22,
+    "reorder_level": 6,
+    "variants": {
+      "colors": [
+        "Clear/Gold",
+        "Clear/Black",
+        "Clear/Copper"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Geometric glass terrarium named 'FernNest,' small succulent inside, natural light, clean background",
+    "dimensions": {
+      "width": 5.0,
+      "height": 7.0,
+      "depth": 5.0
+    },
+    "weight": 0.7,
+    "tags": [
+      "terrarium",
+      "vase",
+      "succulent",
+      "decor"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.6,
+    "review_count": 189,
+    "tax_class": "standard",
+    "created_at": "2025-07-26T09:00:00Z"
+  },
+  {
+    "id": 113,
+    "sku": "HOM-013",
+    "slug": "dusklight-reed-diffuser",
+    "name": "DuskLight Reed Diffuser",
+    "brand": "DuskLight",
+    "description": "A long-lasting reed diffuser in amber glass with sandalwood and vanilla notes.",
+    "category": "Home Goods & Decor",
+    "subcategory": "Aromatherapy",
+    "price": 26.99,
+    "discount_price": null,
+    "cost": 7.0,
+    "stock": 24,
+    "reorder_level": 6,
+    "variants": {
+      "scents": [
+        "Sandalwood & Vanilla",
+        "Cedarwood & Musk",
+        "Amber & Oud"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Amber glass reed diffuser named 'DuskLight,' rattan reeds, warm moody lighting",
+    "dimensions": {
+      "width": 3.0,
+      "height": 9.0,
+      "depth": 3.0
+    },
+    "weight": 0.6,
+    "tags": [
+      "reed diffuser",
+      "aromatherapy",
+      "sandalwood",
+      "home scent"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.7,
+    "review_count": 198,
+    "tax_class": "standard",
+    "created_at": "2025-07-30T09:00:00Z"
+  },
+  {
+    "id": 114,
+    "sku": "HOM-014",
+    "slug": "copperveil-wind-chime",
+    "name": "CopperVeil Wind Chime",
+    "brand": "CopperVeil",
+    "description": "A hand-tuned copper wind chime with a rich, resonant tone. Currently sold out.",
+    "category": "Home Goods & Decor",
+    "subcategory": "Outdoor Decor",
+    "price": 32.99,
+    "discount_price": null,
+    "cost": 9.5,
+    "stock": 0,
+    "reorder_level": 5,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Copper wind chime named 'CopperVeil,' hanging outdoors, warm sunset light, gentle movement",
+    "dimensions": {
+      "width": 4.0,
+      "height": 18.0,
+      "depth": 4.0
+    },
+    "weight": 0.6,
+    "tags": [
+      "wind chime",
+      "copper",
+      "outdoor",
+      "decor"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.8,
+    "review_count": 142,
+    "tax_class": "standard",
+    "created_at": "2025-08-03T09:00:00Z"
+  },
+  {
+    "id": 115,
+    "sku": "HOM-015",
+    "slug": "solitude-meditation-cushion",
+    "name": "Solitude Meditation Cushion",
+    "brand": "Solitude Living",
+    "description": "A firm buckwheat-fill meditation cushion with a removable organic cotton cover.",
+    "category": "Home Goods & Decor",
+    "subcategory": "Wellness",
+    "price": 44.99,
+    "discount_price": 36.99,
+    "cost": 13.5,
+    "stock": 18,
+    "reorder_level": 5,
+    "variants": {
+      "colors": [
+        "Natural Linen",
+        "Charcoal",
+        "Terracotta",
+        "Sage Green"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Round meditation cushion named 'Solitude,' on a yoga mat, soft morning light",
+    "dimensions": {
+      "width": 14.0,
+      "height": 6.0,
+      "depth": 14.0
+    },
+    "weight": 2.8,
+    "tags": [
+      "meditation",
+      "cushion",
+      "yoga",
+      "wellness"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.6,
+    "review_count": 134,
+    "tax_class": "standard",
+    "created_at": "2025-08-07T09:00:00Z"
+  },
+  {
+    "id": 116,
+    "sku": "HOM-016",
+    "slug": "verdantmoss-wall-frame",
+    "name": "VerdantMoss Wall Frame",
+    "brand": "VerdantMoss",
+    "description": "A preserved moss art frame in a black wood shadow box for modern living spaces.",
+    "category": "Home Goods & Decor",
+    "subcategory": "Wall Decor",
+    "price": 49.99,
+    "discount_price": null,
+    "cost": 15.0,
+    "stock": 10,
+    "reorder_level": 3,
+    "variants": {
+      "sizes": [
+        "8x8",
+        "10x10",
+        "12x12"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Preserved moss wall art frame named 'VerdantMoss,' black frame, living room wall, natural light",
+    "dimensions": {
+      "width": 12.0,
+      "height": 12.0,
+      "depth": 2.0
+    },
+    "weight": 1.2,
+    "tags": [
+      "moss art",
+      "wall decor",
+      "preserved",
+      "nature"
+    ],
+    "active": true,
+    "featured": true,
+    "rating": 4.7,
+    "review_count": 89,
+    "tax_class": "standard",
+    "created_at": "2025-08-11T09:00:00Z"
+  },
+  {
+    "id": 117,
+    "sku": "HOM-017",
+    "slug": "pineconeridge-bookend-set",
+    "name": "PineconeRidge Bookend Set",
+    "brand": "PineconeRidge",
+    "description": "A set of two cast-iron pinecone bookends with an antique bronze finish.",
+    "category": "Home Goods & Decor",
+    "subcategory": "Decor",
+    "price": 29.99,
+    "discount_price": null,
+    "cost": 9.0,
+    "stock": 20,
+    "reorder_level": 5,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Cast-iron pinecone bookends named 'PineconeRidge,' holding books on shelf, rustic warm tones",
+    "dimensions": {
+      "width": 4.0,
+      "height": 6.0,
+      "depth": 4.0
+    },
+    "weight": 3.2,
+    "tags": [
+      "bookend",
+      "cast iron",
+      "decor",
+      "home office"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.4,
+    "review_count": 163,
+    "tax_class": "standard",
+    "created_at": "2025-08-15T09:00:00Z"
+  },
+  {
+    "id": 118,
+    "sku": "HOM-018",
+    "slug": "azurewave-ceramic-bowl-set",
+    "name": "AzureWave Ceramic Bowl Set",
+    "brand": "AzureWave",
+    "description": "A set of four hand-glazed cereal bowls with an ocean-inspired blue glaze.",
+    "category": "Home Goods & Decor",
+    "subcategory": "Kitchen",
+    "price": 34.99,
+    "discount_price": null,
+    "cost": 10.5,
+    "stock": 16,
+    "reorder_level": 4,
+    "variants": null,
+    "images": [],
+    "image_prompt": "Stacked ceramic bowls named 'AzureWave,' ocean blue glaze, kitchen table, overhead shot",
+    "dimensions": {
+      "width": 6.0,
+      "height": 3.0,
+      "depth": 6.0
+    },
+    "weight": 2.4,
+    "tags": [
+      "bowls",
+      "ceramic",
+      "kitchen",
+      "set"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.6,
+    "review_count": 217,
+    "tax_class": "standard",
+    "created_at": "2025-08-19T09:00:00Z"
+  },
+  {
+    "id": 119,
+    "sku": "HOM-019",
+    "slug": "nightbloom-bedside-organizer",
+    "name": "NightBloom Bedside Organizer",
+    "brand": "NightBloom",
+    "description": "A bamboo bedside caddy with pockets for phone, books, and glasses.",
+    "category": "Home Goods & Decor",
+    "subcategory": "Storage",
+    "price": 19.99,
+    "discount_price": null,
+    "cost": 5.5,
+    "stock": 28,
+    "reorder_level": 7,
+    "variants": {
+      "colors": [
+        "Natural Bamboo",
+        "Dark Walnut"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Bamboo bedside organizer named 'NightBloom,' attached to nightstand, cozy bedroom lighting",
+    "dimensions": {
+      "width": 10.0,
+      "height": 12.0,
+      "depth": 4.0
+    },
+    "weight": 1.0,
+    "tags": [
+      "organizer",
+      "bamboo",
+      "bedside",
+      "storage"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.5,
+    "review_count": 312,
+    "tax_class": "standard",
+    "created_at": "2025-08-23T09:00:00Z"
+  },
+  {
+    "id": 120,
+    "sku": "HOM-020",
+    "slug": "terrawck-beeswax-candle",
+    "name": "TerraWick Beeswax Candle",
+    "brand": "TerraWick",
+    "description": "A pure beeswax pillar candle with a cotton wick and honey-warm natural scent.",
+    "category": "Home Goods & Decor",
+    "subcategory": "Candle",
+    "price": 16.99,
+    "discount_price": null,
+    "cost": 4.5,
+    "stock": 35,
+    "reorder_level": 9,
+    "variants": {
+      "sizes": [
+        "Small (3\")",
+        "Medium (4\")",
+        "Large (6\")"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Natural beeswax pillar candle named 'TerraWick,' honeycomb texture, warm golden flame, rustic wood surface",
+    "dimensions": {
+      "width": 3.0,
+      "height": 4.0,
+      "depth": 3.0
+    },
+    "weight": 0.7,
+    "tags": [
+      "candle",
+      "beeswax",
+      "natural",
+      "pillar"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.8,
+    "review_count": 276,
+    "tax_class": "standard",
+    "created_at": "2025-08-27T09:00:00Z"
+  },
+  {
+    "id": 121,
+    "sku": "WOM-011",
+    "slug": "prismstone-sunglasses",
+    "name": "PrismStone Sunglasses",
+    "brand": "LuxeWear",
+    "description": "Oversized square sunglasses with gradient lenses and a tortoiseshell frame.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Women",
+    "price": 29.99,
+    "discount_price": null,
+    "cost": 8.5,
+    "stock": 30,
+    "reorder_level": 8,
+    "variants": {
+      "colors": [
+        "Tortoise/Brown Gradient",
+        "Black/Gray",
+        "Clear/Rose"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Oversized sunglasses named 'PrismStone,' flat lay, summer editorial style, warm tones",
+    "dimensions": {
+      "width": 6.0,
+      "height": 2.5,
+      "depth": 2.0
+    },
+    "weight": 0.2,
+    "tags": [
+      "sunglasses",
+      "accessories",
+      "women",
+      "summer"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.4,
+    "review_count": 312,
+    "tax_class": "standard",
+    "created_at": "2025-10-27T09:00:00Z"
+  },
+  {
+    "id": 122,
+    "sku": "WOM-012",
+    "slug": "zephyrlinen-palazzo-pants",
+    "name": "ZephyrLinen Palazzo Pants",
+    "brand": "LuxeWear",
+    "description": "Flowy wide-leg linen pants with an elastic waistband for effortless style.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Women",
+    "price": 37.99,
+    "discount_price": null,
+    "cost": 11.0,
+    "stock": 18,
+    "reorder_level": 5,
+    "variants": {
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Natural Linen",
+        "Black",
+        "Dusty Rose",
+        "Sage Green"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Wide-leg linen pants named 'ZephyrLinen,' on hanger, breezy outdoor setting, soft tones",
+    "dimensions": {
+      "width": 12.0,
+      "height": 2.0,
+      "depth": 10.0
+    },
+    "weight": 0.9,
+    "tags": [
+      "pants",
+      "linen",
+      "wide-leg",
+      "women"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.5,
+    "review_count": 187,
+    "tax_class": "standard",
+    "created_at": "2025-10-30T09:00:00Z"
+  },
+  {
+    "id": 123,
+    "sku": "WOM-013",
+    "slug": "starline-track-jacket",
+    "name": "StarLine Track Jacket",
+    "brand": "LuxeWear",
+    "description": "A retro-style track jacket with contrast piping and front zip closure.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Women",
+    "price": 42.99,
+    "discount_price": 35.99,
+    "cost": 13.0,
+    "stock": 14,
+    "reorder_level": 4,
+    "variants": {
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Black/Gold",
+        "White/Navy",
+        "Burgundy/Cream"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Retro track jacket named 'StarLine,' flatlay, sporty editorial, contrast piping detail",
+    "dimensions": {
+      "width": 13.0,
+      "height": 2.5,
+      "depth": 11.0
+    },
+    "weight": 1.2,
+    "tags": [
+      "jacket",
+      "track",
+      "retro",
+      "women"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.6,
+    "review_count": 143,
+    "tax_class": "standard",
+    "created_at": "2025-11-02T09:00:00Z"
+  },
+  {
+    "id": 124,
+    "sku": "WOM-014",
+    "slug": "opaleyarn-beret",
+    "name": "OpaleYarn Beret",
+    "brand": "LuxeWear",
+    "description": "A classic wool-blend beret with a relaxed fit and subtle texture.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Women",
+    "price": 18.99,
+    "discount_price": null,
+    "cost": 5.0,
+    "stock": 38,
+    "reorder_level": 10,
+    "variants": {
+      "colors": [
+        "Black",
+        "Camel",
+        "Burgundy",
+        "Cream",
+        "Forest Green"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Wool beret named 'OpaleYarn,' flatlay, autumn leaves background, soft textured tones",
+    "dimensions": {
+      "width": 9.0,
+      "height": 2.0,
+      "depth": 9.0
+    },
+    "weight": 0.25,
+    "tags": [
+      "beret",
+      "hat",
+      "wool",
+      "women"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.7,
+    "review_count": 298,
+    "tax_class": "standard",
+    "created_at": "2025-11-04T09:00:00Z"
+  },
+  {
+    "id": 125,
+    "sku": "WOM-015",
+    "slug": "coraledge-bikini-set",
+    "name": "CoralEdge Bikini Set",
+    "brand": "LuxeWear",
+    "description": "A ribbed two-piece bikini set with adjustable ties and minimal coverage. Sold out.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Women",
+    "price": 44.99,
+    "discount_price": null,
+    "cost": 13.0,
+    "stock": 0,
+    "reorder_level": 6,
+    "variants": {
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Coral",
+        "Black",
+        "Sage Green",
+        "Terracotta"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Ribbed bikini set named 'CoralEdge,' flatlay on sand, summer editorial, warm tones",
+    "dimensions": {
+      "width": 8.0,
+      "height": 1.0,
+      "depth": 6.0
+    },
+    "weight": 0.3,
+    "tags": [
+      "bikini",
+      "swimwear",
+      "women",
+      "summer"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.5,
+    "review_count": 198,
+    "tax_class": "standard",
+    "created_at": "2025-11-06T09:00:00Z"
+  },
+  {
+    "id": 126,
+    "sku": "WOM-016",
+    "slug": "nightbloom-wrap-dress",
+    "name": "NightBloom Wrap Dress",
+    "brand": "LuxeWear",
+    "description": "A flowy wrap dress with a deep floral print and adjustable waist tie.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Women",
+    "price": 44.99,
+    "discount_price": null,
+    "cost": 13.5,
+    "stock": 20,
+    "reorder_level": 5,
+    "variants": {
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Midnight Floral",
+        "Ivory Floral",
+        "Terracotta Floral"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Wrap dress named 'NightBloom,' on hanger, deep floral print, soft studio lighting",
+    "dimensions": {
+      "width": 13.0,
+      "height": 2.0,
+      "depth": 10.0
+    },
+    "weight": 1.1,
+    "tags": [
+      "dress",
+      "wrap",
+      "floral",
+      "women"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.6,
+    "review_count": 167,
+    "tax_class": "standard",
+    "created_at": "2025-11-08T09:00:00Z"
+  },
+  {
+    "id": 127,
+    "sku": "WOM-017",
+    "slug": "twilightglow-loafers",
+    "name": "TwilightGlow Loafers",
+    "brand": "LuxeWear",
+    "description": "Slip-on loafers with a metallic finish and cushioned footbed.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Women",
+    "price": 52.99,
+    "discount_price": null,
+    "cost": 16.0,
+    "stock": 14,
+    "reorder_level": 4,
+    "variants": {
+      "sizes": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "colors": [
+        "Gold",
+        "Silver",
+        "Champagne Rose"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Metallic loafers named 'TwilightGlow,' floating pose, clean studio shot, warm glow",
+    "dimensions": {
+      "width": 8.0,
+      "height": 3.5,
+      "depth": 12.0
+    },
+    "weight": 1.5,
+    "tags": [
+      "loafers",
+      "shoes",
+      "metallic",
+      "women"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.4,
+    "review_count": 132,
+    "tax_class": "standard",
+    "created_at": "2025-11-10T09:00:00Z"
+  },
+  {
+    "id": 128,
+    "sku": "WOM-018",
+    "slug": "silverstream-necklace",
+    "name": "SilverStream Necklace",
+    "brand": "LuxeWear",
+    "description": "A dainty sterling-silver chain necklace with a crescent moon pendant.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Women",
+    "price": 22.99,
+    "discount_price": null,
+    "cost": 6.0,
+    "stock": 44,
+    "reorder_level": 10,
+    "variants": {
+      "colors": [
+        "Silver",
+        "Gold",
+        "Rose Gold"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Dainty necklace named 'SilverStream,' crescent moon pendant, macro jewelry shot, clean white background",
+    "dimensions": {
+      "width": 0.5,
+      "height": 0.5,
+      "depth": 18.0
+    },
+    "weight": 0.05,
+    "tags": [
+      "necklace",
+      "jewelry",
+      "silver",
+      "women"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.8,
+    "review_count": 487,
+    "tax_class": "standard",
+    "created_at": "2025-11-12T09:00:00Z"
+  },
+  {
+    "id": 129,
+    "sku": "WOM-019",
+    "slug": "cloudstep-mules",
+    "name": "CloudStep Mules",
+    "brand": "LuxeWear",
+    "description": "Open-back mules with a chunky block heel and padded insole for all-day wear.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Women",
+    "price": 47.99,
+    "discount_price": null,
+    "cost": 14.5,
+    "stock": 16,
+    "reorder_level": 4,
+    "variants": {
+      "sizes": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "colors": [
+        "Ivory",
+        "Black",
+        "Nude",
+        "Terracotta"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Block-heel mules named 'CloudStep,' floating shoe render, clean white background, editorial",
+    "dimensions": {
+      "width": 8.0,
+      "height": 4.0,
+      "depth": 12.0
+    },
+    "weight": 1.6,
+    "tags": [
+      "mules",
+      "heels",
+      "shoes",
+      "women"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.3,
+    "review_count": 121,
+    "tax_class": "standard",
+    "created_at": "2025-11-14T09:00:00Z"
+  },
+  {
+    "id": 130,
+    "sku": "WOM-020",
+    "slug": "breezeknit-cardigan",
+    "name": "BreezeKnit Cardigan",
+    "brand": "LuxeWear",
+    "description": "A longline open-front cardigan with a chunky knit texture for layering.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Women",
+    "price": 52.99,
+    "discount_price": 44.99,
+    "cost": 16.0,
+    "stock": 12,
+    "reorder_level": 3,
+    "variants": {
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Oatmeal",
+        "Charcoal",
+        "Rust",
+        "Dusty Blue"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Longline chunky cardigan named 'BreezeKnit,' flatlay, autumn tones, textured knit detail",
+    "dimensions": {
+      "width": 14.0,
+      "height": 3.0,
+      "depth": 12.0
+    },
+    "weight": 1.6,
+    "tags": [
+      "cardigan",
+      "knit",
+      "women",
+      "layering"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.7,
+    "review_count": 218,
+    "tax_class": "standard",
+    "created_at": "2025-11-16T09:00:00Z"
+  },
+  {
+    "id": 131,
+    "sku": "MEN-011",
+    "slug": "stonewall-oxford-shirt",
+    "name": "StoneWall Oxford Shirt",
+    "brand": "ForgeWear",
+    "description": "A classic cotton-blend Oxford button-down shirt with a relaxed fit.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Men",
+    "price": 34.99,
+    "discount_price": null,
+    "cost": 10.0,
+    "stock": 24,
+    "reorder_level": 6,
+    "variants": {
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
+      "colors": [
+        "White",
+        "Light Blue",
+        "Heather Gray",
+        "Navy"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Men's Oxford shirt named 'StoneWall,' flatlay, neutral background, clean minimal shot",
+    "dimensions": {
+      "width": 13.0,
+      "height": 2.0,
+      "depth": 11.0
+    },
+    "weight": 1.1,
+    "tags": [
+      "shirt",
+      "oxford",
+      "button-down",
+      "men"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.5,
+    "review_count": 254,
+    "tax_class": "standard",
+    "created_at": "2025-11-23T09:00:00Z"
+  },
+  {
+    "id": 132,
+    "sku": "MEN-012",
+    "slug": "deltaedge-chino-pants",
+    "name": "DeltaEdge Chino Pants",
+    "brand": "ForgeWear",
+    "description": "Slim-tapered chino pants with a stretch-cotton blend for comfort and style.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Men",
+    "price": 44.99,
+    "discount_price": null,
+    "cost": 13.5,
+    "stock": 18,
+    "reorder_level": 5,
+    "variants": {
+      "sizes": [
+        "28x30",
+        "30x30",
+        "32x30",
+        "32x32",
+        "34x32",
+        "36x32"
+      ],
+      "colors": [
+        "Khaki",
+        "Navy",
+        "Olive",
+        "Charcoal"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Men's chino pants named 'DeltaEdge,' flatlay, clean studio, neutral tones",
+    "dimensions": {
+      "width": 13.0,
+      "height": 2.0,
+      "depth": 11.0
+    },
+    "weight": 1.3,
+    "tags": [
+      "chinos",
+      "pants",
+      "men",
+      "slim"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.6,
+    "review_count": 312,
+    "tax_class": "standard",
+    "created_at": "2025-11-25T09:00:00Z"
+  },
+  {
+    "id": 133,
+    "sku": "MEN-013",
+    "slug": "peakridge-fleece-jacket",
+    "name": "PeakRidge Fleece Jacket",
+    "brand": "ForgeWear",
+    "description": "A quarter-zip fleece jacket with anti-pill fabric and two zip pockets. Sold out.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Men",
+    "price": 59.99,
+    "discount_price": null,
+    "cost": 18.0,
+    "stock": 0,
+    "reorder_level": 5,
+    "variants": {
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
+      "colors": [
+        "Charcoal",
+        "Navy",
+        "Forest Green",
+        "Burgundy"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Men's fleece jacket named 'PeakRidge,' flatlay, outdoorsy mountain aesthetic, textured fabric",
+    "dimensions": {
+      "width": 14.0,
+      "height": 3.0,
+      "depth": 12.0
+    },
+    "weight": 1.7,
+    "tags": [
+      "fleece",
+      "jacket",
+      "men",
+      "outerwear"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.7,
+    "review_count": 178,
+    "tax_class": "standard",
+    "created_at": "2025-11-27T09:00:00Z"
+  },
+  {
+    "id": 134,
+    "sku": "MEN-014",
+    "slug": "tidemark-canvas-cap",
+    "name": "TideMark Canvas Cap",
+    "brand": "ForgeWear",
+    "description": "A structured canvas baseball cap with a curved brim and tonal embroidery.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Men",
+    "price": 22.99,
+    "discount_price": null,
+    "cost": 6.0,
+    "stock": 36,
+    "reorder_level": 9,
+    "variants": {
+      "colors": [
+        "Khaki",
+        "Navy",
+        "Black",
+        "Olive",
+        "Stone Gray"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Canvas baseball cap named 'TideMark,' clean flatlay, minimal studio lighting, tonal embroidery visible",
+    "dimensions": {
+      "width": 8.0,
+      "height": 5.0,
+      "depth": 9.0
+    },
+    "weight": 0.3,
+    "tags": [
+      "cap",
+      "hat",
+      "baseball",
+      "men"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.5,
+    "review_count": 387,
+    "tax_class": "standard",
+    "created_at": "2025-11-29T09:00:00Z"
+  },
+  {
+    "id": 135,
+    "sku": "MEN-015",
+    "slug": "ruraledge-denim-shirt",
+    "name": "RuralEdge Denim Shirt",
+    "brand": "ForgeWear",
+    "description": "A washed-denim long-sleeve shirt with a relaxed fit and chest pockets.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Men",
+    "price": 39.99,
+    "discount_price": null,
+    "cost": 12.0,
+    "stock": 20,
+    "reorder_level": 5,
+    "variants": {
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
+      "colors": [
+        "Light Wash",
+        "Medium Wash",
+        "Dark Wash"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Men's denim shirt named 'RuralEdge,' flatlay on wooden surface, rugged casual aesthetic",
+    "dimensions": {
+      "width": 13.0,
+      "height": 2.0,
+      "depth": 11.0
+    },
+    "weight": 1.3,
+    "tags": [
+      "denim shirt",
+      "casual",
+      "men",
+      "western"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.4,
+    "review_count": 198,
+    "tax_class": "standard",
+    "created_at": "2025-12-01T09:00:00Z"
+  },
+  {
+    "id": 136,
+    "sku": "MEN-016",
+    "slug": "vertexgrip-athletic-shorts",
+    "name": "VertexGrip Athletic Shorts",
+    "brand": "ForgeWear",
+    "description": "7-inch athletic shorts with a built-in liner and quick-dry fabric.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Men",
+    "price": 26.99,
+    "discount_price": null,
+    "cost": 8.0,
+    "stock": 28,
+    "reorder_level": 7,
+    "variants": {
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
+      "colors": [
+        "Black",
+        "Navy",
+        "Charcoal",
+        "Army Green"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Men's athletic shorts named 'VertexGrip,' flatlay, gym aesthetic, clean white background",
+    "dimensions": {
+      "width": 12.0,
+      "height": 1.5,
+      "depth": 10.0
+    },
+    "weight": 0.8,
+    "tags": [
+      "shorts",
+      "athletic",
+      "gym",
+      "men"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.6,
+    "review_count": 432,
+    "tax_class": "standard",
+    "created_at": "2025-12-03T09:00:00Z"
+  },
+  {
+    "id": 137,
+    "sku": "MEN-017",
+    "slug": "harborlight-polo-shirt",
+    "name": "HarborLight Polo Shirt",
+    "brand": "ForgeWear",
+    "description": "A pique cotton polo shirt with a clean collar and subtle chest embroidery.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Men",
+    "price": 32.99,
+    "discount_price": 26.99,
+    "cost": 9.5,
+    "stock": 22,
+    "reorder_level": 6,
+    "variants": {
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL"
+      ],
+      "colors": [
+        "White",
+        "Navy",
+        "Forest Green",
+        "Burgundy",
+        "Gray"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Men's polo shirt named 'HarborLight,' flatlay, classic preppy aesthetic, clean studio tones",
+    "dimensions": {
+      "width": 12.0,
+      "height": 2.0,
+      "depth": 10.0
+    },
+    "weight": 1.0,
+    "tags": [
+      "polo",
+      "shirt",
+      "men",
+      "classic"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.5,
+    "review_count": 267,
+    "tax_class": "standard",
+    "created_at": "2025-12-05T09:00:00Z"
+  },
+  {
+    "id": 138,
+    "sku": "MEN-018",
+    "slug": "ironbend-work-gloves",
+    "name": "IronBend Work Gloves",
+    "brand": "ForgeWear",
+    "description": "Heavy-duty synthetic leather work gloves with padded knuckle protection.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Men",
+    "price": 19.99,
+    "discount_price": null,
+    "cost": 5.5,
+    "stock": 34,
+    "reorder_level": 8,
+    "variants": {
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "XXL"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Work gloves named 'IronBend,' rugged texture, tool belt background, industrial product shot",
+    "dimensions": {
+      "width": 5.0,
+      "height": 1.5,
+      "depth": 9.0
+    },
+    "weight": 0.5,
+    "tags": [
+      "gloves",
+      "work",
+      "outdoor",
+      "men"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.4,
+    "review_count": 312,
+    "tax_class": "standard",
+    "created_at": "2025-12-07T09:00:00Z"
+  },
+  {
+    "id": 139,
+    "sku": "MEN-019",
+    "slug": "granitepath-loafers",
+    "name": "GranitePath Loafers",
+    "brand": "ForgeWear",
+    "description": "Slip-on leather-look loafers with a memory foam insole and durable outsole.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Men",
+    "price": 54.99,
+    "discount_price": null,
+    "cost": 16.5,
+    "stock": 12,
+    "reorder_level": 3,
+    "variants": {
+      "sizes": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "colors": [
+        "Black",
+        "Dark Brown",
+        "Cognac"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Men's loafers named 'GranitePath,' floating product render, clean editorial lighting",
+    "dimensions": {
+      "width": 9.0,
+      "height": 4.5,
+      "depth": 12.0
+    },
+    "weight": 2.2,
+    "tags": [
+      "loafers",
+      "shoes",
+      "men",
+      "casual"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.6,
+    "review_count": 148,
+    "tax_class": "standard",
+    "created_at": "2025-12-09T09:00:00Z"
+  },
+  {
+    "id": 140,
+    "sku": "MEN-020",
+    "slug": "boulderline-wool-socks-set-3",
+    "name": "BoulderLine Wool Socks — Set of 3",
+    "brand": "ForgeWear",
+    "description": "A set of three merino-wool blend cushioned socks for all-day comfort.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Men",
+    "price": 24.99,
+    "discount_price": null,
+    "cost": 7.0,
+    "stock": 40,
+    "reorder_level": 10,
+    "variants": {
+      "sizes": [
+        "S/M (6-9)",
+        "L/XL (10-13)"
+      ],
+      "colors": [
+        "Gray/Navy/Black",
+        "Brown/Tan/Cream",
+        "Forest/Burgundy/Charcoal"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Merino wool socks named 'BoulderLine,' neatly folded set of three, cabin aesthetic, warm tones",
+    "dimensions": {
+      "width": 5.0,
+      "height": 3.0,
+      "depth": 5.0
+    },
+    "weight": 0.4,
+    "tags": [
+      "socks",
+      "wool",
+      "men",
+      "set"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.7,
+    "review_count": 523,
+    "tax_class": "standard",
+    "created_at": "2025-12-11T09:00:00Z"
+  },
+  {
+    "id": 141,
+    "sku": "BOY-011",
+    "slug": "zoomrail-swim-trunks",
+    "name": "ZoomRail Swim Trunks",
+    "brand": "KidBolt",
+    "description": "Quick-dry swim trunks with a fun wave print and adjustable waistband.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Boys",
+    "price": 18.99,
+    "discount_price": null,
+    "cost": 6.0,
+    "stock": 28,
+    "reorder_level": 7,
+    "variants": {
+      "sizes": [
+        "4T",
+        "5T",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "colors": [
+        "Blue Waves",
+        "Tropical Print",
+        "Red/White"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Kids swim trunks named 'ZoomRail,' flatlay on towel, beach summer aesthetic, bright colors",
+    "dimensions": {
+      "width": 9.0,
+      "height": 1.5,
+      "depth": 7.0
+    },
+    "weight": 0.5,
+    "tags": [
+      "swim trunks",
+      "swimwear",
+      "boys",
+      "summer"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.5,
+    "review_count": 198,
+    "tax_class": "standard",
+    "created_at": "2025-12-13T09:00:00Z"
+  },
+  {
+    "id": 142,
+    "sku": "BOY-012",
+    "slug": "terrakid-hiking-boots",
+    "name": "TerraKid Hiking Boots",
+    "brand": "KidBolt",
+    "description": "Waterproof kids hiking boots with Velcro strap for easy on-off.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Boys",
+    "price": 37.99,
+    "discount_price": null,
+    "cost": 13.0,
+    "stock": 14,
+    "reorder_level": 4,
+    "variants": {
+      "sizes": [
+        "1Y",
+        "2Y",
+        "3Y",
+        "4Y",
+        "5Y",
+        "6Y"
+      ],
+      "colors": [
+        "Brown/Orange",
+        "Gray/Green",
+        "Navy/Yellow"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Kids hiking boots named 'TerraKid,' rugged trail background, waterproof product shot",
+    "dimensions": {
+      "width": 7.0,
+      "height": 5.0,
+      "depth": 10.0
+    },
+    "weight": 1.5,
+    "tags": [
+      "boots",
+      "hiking",
+      "waterproof",
+      "boys"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.7,
+    "review_count": 143,
+    "tax_class": "standard",
+    "created_at": "2025-12-15T09:00:00Z"
+  },
+  {
+    "id": 143,
+    "sku": "BOY-013",
+    "slug": "pixelblast-gaming-tee",
+    "name": "PixelBlast Gaming Tee",
+    "brand": "KidBolt",
+    "description": "A soft cotton tee with an 8-bit gaming graphic and glow-in-the-dark print.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Boys",
+    "price": 14.99,
+    "discount_price": null,
+    "cost": 4.5,
+    "stock": 36,
+    "reorder_level": 9,
+    "variants": {
+      "sizes": [
+        "4T",
+        "5T",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "colors": [
+        "Black",
+        "Navy",
+        "Gray"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Kids gaming tee named 'PixelBlast,' glow-in-dark graphic visible, dark background, fun editorial",
+    "dimensions": {
+      "width": 10.0,
+      "height": 1.5,
+      "depth": 8.0
+    },
+    "weight": 0.6,
+    "tags": [
+      "t-shirt",
+      "gaming",
+      "glow-in-dark",
+      "boys"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.8,
+    "review_count": 412,
+    "tax_class": "standard",
+    "created_at": "2025-12-17T09:00:00Z"
+  },
+  {
+    "id": 144,
+    "sku": "BOY-014",
+    "slug": "flashdash-track-pants",
+    "name": "FlashDash Track Pants",
+    "brand": "KidBolt",
+    "description": "Lightweight kids track pants with snap-button sides and elastic waistband.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Boys",
+    "price": 21.99,
+    "discount_price": 16.99,
+    "cost": 6.5,
+    "stock": 22,
+    "reorder_level": 6,
+    "variants": {
+      "sizes": [
+        "4T",
+        "5T",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "colors": [
+        "Black/White",
+        "Navy/Red",
+        "Gray/Blue"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Kids track pants named 'FlashDash,' flatlay, sporty colorblock design, bright background",
+    "dimensions": {
+      "width": 9.0,
+      "height": 1.5,
+      "depth": 7.0
+    },
+    "weight": 0.7,
+    "tags": [
+      "track pants",
+      "athletic",
+      "boys",
+      "sporty"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.5,
+    "review_count": 187,
+    "tax_class": "standard",
+    "created_at": "2025-12-19T09:00:00Z"
+  },
+  {
+    "id": 145,
+    "sku": "BOY-015",
+    "slug": "starforge-zip-up-hoodie",
+    "name": "StarForge Zip-Up Hoodie",
+    "brand": "KidBolt",
+    "description": "A zip-up hoodie with a reflective star patch and kangaroo pocket.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Boys",
+    "price": 27.99,
+    "discount_price": null,
+    "cost": 8.5,
+    "stock": 18,
+    "reorder_level": 5,
+    "variants": {
+      "sizes": [
+        "4T",
+        "5T",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "colors": [
+        "Charcoal",
+        "Navy",
+        "Black",
+        "Electric Blue"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Kids zip-up hoodie named 'StarForge,' reflective star patch, flatlay, dark cool tones",
+    "dimensions": {
+      "width": 10.0,
+      "height": 2.0,
+      "depth": 8.0
+    },
+    "weight": 1.0,
+    "tags": [
+      "hoodie",
+      "zip-up",
+      "boys",
+      "reflective"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.6,
+    "review_count": 221,
+    "tax_class": "standard",
+    "created_at": "2025-12-21T09:00:00Z"
+  },
+  {
+    "id": 146,
+    "sku": "BOY-016",
+    "slug": "solarpatch-denim-shorts",
+    "name": "SolarPatch Denim Shorts",
+    "brand": "KidBolt",
+    "description": "Classic denim shorts with embroidered patches and a relaxed fit.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Boys",
+    "price": 19.99,
+    "discount_price": null,
+    "cost": 6.5,
+    "stock": 24,
+    "reorder_level": 6,
+    "variants": {
+      "sizes": [
+        "4T",
+        "5T",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "colors": [
+        "Light Wash",
+        "Medium Wash"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Kids denim shorts named 'SolarPatch,' embroidered patches visible, flatlay, summer feel",
+    "dimensions": {
+      "width": 9.0,
+      "height": 1.5,
+      "depth": 7.0
+    },
+    "weight": 0.6,
+    "tags": [
+      "shorts",
+      "denim",
+      "boys",
+      "summer"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.4,
+    "review_count": 163,
+    "tax_class": "standard",
+    "created_at": "2025-12-23T09:00:00Z"
+  },
+  {
+    "id": 147,
+    "sku": "BOY-017",
+    "slug": "nightcrawler-pajama-set",
+    "name": "NightCrawler Pajama Set",
+    "brand": "KidBolt",
+    "description": "Cozy glow-in-the-dark bug-print pajamas. Limited size run — sold out.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Boys",
+    "price": 22.99,
+    "discount_price": null,
+    "cost": 7.5,
+    "stock": 0,
+    "reorder_level": 6,
+    "variants": {
+      "sizes": [
+        "4T",
+        "5T",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "colors": [
+        "Midnight Blue",
+        "Forest Green"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Kids pajama set named 'NightCrawler,' bug print glowing in dark, fun cozy bedroom lighting",
+    "dimensions": {
+      "width": 10.0,
+      "height": 2.0,
+      "depth": 8.0
+    },
+    "weight": 0.9,
+    "tags": [
+      "pajamas",
+      "sleepwear",
+      "glow-in-dark",
+      "boys"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.9,
+    "review_count": 287,
+    "tax_class": "standard",
+    "created_at": "2025-12-25T09:00:00Z"
+  },
+  {
+    "id": 148,
+    "sku": "BOY-018",
+    "slug": "gearrush-drawstring-bag",
+    "name": "GearRush Drawstring Bag",
+    "brand": "KidBolt",
+    "description": "A lightweight drawstring backpack with mesh pockets and a water-resistant lining.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Boys",
+    "price": 14.99,
+    "discount_price": null,
+    "cost": 4.5,
+    "stock": 38,
+    "reorder_level": 10,
+    "variants": {
+      "colors": [
+        "Black/Lime",
+        "Navy/Orange",
+        "Gray/Red"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Kids drawstring bag named 'GearRush,' bright sporty colors, clean studio shot",
+    "dimensions": {
+      "width": 12.0,
+      "height": 16.0,
+      "depth": 1.0
+    },
+    "weight": 0.4,
+    "tags": [
+      "bag",
+      "drawstring",
+      "backpack",
+      "boys"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.5,
+    "review_count": 342,
+    "tax_class": "standard",
+    "created_at": "2025-12-27T09:00:00Z"
+  },
+  {
+    "id": 149,
+    "sku": "BOY-019",
+    "slug": "frostbite-snow-boots",
+    "name": "FrostBite Snow Boots",
+    "brand": "KidBolt",
+    "description": "Insulated waterproof snow boots with a non-slip sole for winter play.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Boys",
+    "price": 42.99,
+    "discount_price": null,
+    "cost": 14.0,
+    "stock": 16,
+    "reorder_level": 4,
+    "variants": {
+      "sizes": [
+        "1Y",
+        "2Y",
+        "3Y",
+        "4Y",
+        "5Y",
+        "6Y"
+      ],
+      "colors": [
+        "Black/Gray",
+        "Navy/Orange",
+        "Camo Green"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Kids snow boots named 'FrostBite,' snowy background, insulated warm product photo",
+    "dimensions": {
+      "width": 7.0,
+      "height": 7.0,
+      "depth": 10.0
+    },
+    "weight": 1.8,
+    "tags": [
+      "boots",
+      "snow",
+      "waterproof",
+      "boys",
+      "winter"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.7,
+    "review_count": 189,
+    "tax_class": "standard",
+    "created_at": "2025-12-29T09:00:00Z"
+  },
+  {
+    "id": 150,
+    "sku": "BOY-020",
+    "slug": "boulderbud-long-sleeve-tee",
+    "name": "BoulderBud Long-Sleeve Tee",
+    "brand": "KidBolt",
+    "description": "A soft long-sleeve cotton tee with a mountain graphic and crew neck.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Boys",
+    "price": 15.99,
+    "discount_price": null,
+    "cost": 4.8,
+    "stock": 30,
+    "reorder_level": 8,
+    "variants": {
+      "sizes": [
+        "4T",
+        "5T",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "colors": [
+        "Forest Green",
+        "Rust",
+        "Navy",
+        "Heather Gray"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Kids long-sleeve tee named 'BoulderBud,' mountain graphic, flatlay, earthy outdoor tones",
+    "dimensions": {
+      "width": 10.0,
+      "height": 1.5,
+      "depth": 8.0
+    },
+    "weight": 0.6,
+    "tags": [
+      "t-shirt",
+      "long sleeve",
+      "boys",
+      "mountain"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.6,
+    "review_count": 267,
+    "tax_class": "standard",
+    "created_at": "2025-12-31T09:00:00Z"
+  },
+  {
+    "id": 151,
+    "sku": "GIR-011",
+    "slug": "buttercupbloom-tutu-set",
+    "name": "ButtercupBloom Tutu Set",
+    "brand": "BloomKids",
+    "description": "A matching tutu and crop top set with glitter butterfly print.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Girls",
+    "price": 24.99,
+    "discount_price": null,
+    "cost": 8.0,
+    "stock": 26,
+    "reorder_level": 6,
+    "variants": {
+      "sizes": [
+        "4T",
+        "5T",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "colors": [
+        "Yellow/Gold",
+        "Pink/Rose",
+        "Mint/White"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Girls tutu set named 'ButtercupBloom,' glitter butterfly print, sunny pastel background",
+    "dimensions": {
+      "width": 9.0,
+      "height": 2.0,
+      "depth": 7.0
+    },
+    "weight": 0.6,
+    "tags": [
+      "tutu",
+      "set",
+      "girls",
+      "glitter"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.8,
+    "review_count": 312,
+    "tax_class": "standard",
+    "created_at": "2026-01-02T09:00:00Z"
+  },
+  {
+    "id": 152,
+    "sku": "GIR-012",
+    "slug": "pinkcomet-leggings",
+    "name": "PinkComet Leggings",
+    "brand": "BloomKids",
+    "description": "Soft stretch leggings with a holographic comet pattern and wide waistband.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Girls",
+    "price": 14.99,
+    "discount_price": null,
+    "cost": 4.5,
+    "stock": 40,
+    "reorder_level": 10,
+    "variants": {
+      "sizes": [
+        "4T",
+        "5T",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "colors": [
+        "Pink Holographic",
+        "Blue Holographic",
+        "Purple Holographic"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Kids leggings named 'PinkComet,' holographic shimmer visible, flat lay, playful girl aesthetic",
+    "dimensions": {
+      "width": 9.0,
+      "height": 1.5,
+      "depth": 7.0
+    },
+    "weight": 0.5,
+    "tags": [
+      "leggings",
+      "holographic",
+      "girls",
+      "activewear"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.7,
+    "review_count": 378,
+    "tax_class": "standard",
+    "created_at": "2026-01-04T09:00:00Z"
+  },
+  {
+    "id": 153,
+    "sku": "GIR-013",
+    "slug": "lavenderpuff-puffer-vest",
+    "name": "LavenderPuff Puffer Vest",
+    "brand": "BloomKids",
+    "description": "A lightweight puffer vest in pastel tones for layering during cooler days.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Girls",
+    "price": 29.99,
+    "discount_price": null,
+    "cost": 9.5,
+    "stock": 18,
+    "reorder_level": 4,
+    "variants": {
+      "sizes": [
+        "4T",
+        "5T",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "colors": [
+        "Lavender",
+        "Blush Pink",
+        "Mint",
+        "Butter Yellow"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Kids puffer vest named 'LavenderPuff,' pastel color flatlay, cozy autumn aesthetic",
+    "dimensions": {
+      "width": 10.0,
+      "height": 2.5,
+      "depth": 8.0
+    },
+    "weight": 0.9,
+    "tags": [
+      "vest",
+      "puffer",
+      "girls",
+      "outerwear"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.6,
+    "review_count": 198,
+    "tax_class": "standard",
+    "created_at": "2026-01-06T09:00:00Z"
+  },
+  {
+    "id": 154,
+    "sku": "GIR-014",
+    "slug": "crystalmist-hair-clip-set",
+    "name": "CrystalMist Hair Clip Set",
+    "brand": "BloomKids",
+    "description": "A set of six decorative hair clips with crystal and flower embellishments.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Girls",
+    "price": 9.99,
+    "discount_price": null,
+    "cost": 2.5,
+    "stock": 55,
+    "reorder_level": 14,
+    "variants": {
+      "colors": [
+        "Pink/Crystal",
+        "Blue/Pearl",
+        "Rainbow Mix"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Hair clip set named 'CrystalMist,' laid out neatly, sparkle and flower detail, soft pastel background",
+    "dimensions": {
+      "width": 4.0,
+      "height": 1.0,
+      "depth": 5.0
+    },
+    "weight": 0.15,
+    "tags": [
+      "hair clips",
+      "accessory",
+      "girls",
+      "crystal"
+    ],
+    "active": true,
+    "featured": true,
+    "rating": 4.9,
+    "review_count": 621,
+    "tax_class": "standard",
+    "created_at": "2026-01-08T09:00:00Z"
+  },
+  {
+    "id": 155,
+    "sku": "GIR-015",
+    "slug": "seafoamwave-swim-one-piece",
+    "name": "SeafoamWave Swim One-Piece",
+    "brand": "BloomKids",
+    "description": "A UPF 50+ one-piece swimsuit with ruffle details and adjustable straps.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Girls",
+    "price": 27.99,
+    "discount_price": null,
+    "cost": 9.0,
+    "stock": 20,
+    "reorder_level": 5,
+    "variants": {
+      "sizes": [
+        "4T",
+        "5T",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "colors": [
+        "Seafoam Green",
+        "Coral",
+        "Lavender",
+        "Yellow"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Girls one-piece swimsuit named 'SeafoamWave,' ruffle detail, pool-side editorial, bright summer colors",
+    "dimensions": {
+      "width": 9.0,
+      "height": 1.5,
+      "depth": 7.0
+    },
+    "weight": 0.5,
+    "tags": [
+      "swimsuit",
+      "one-piece",
+      "UPF 50",
+      "girls",
+      "summer"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.7,
+    "review_count": 243,
+    "tax_class": "standard",
+    "created_at": "2026-01-10T09:00:00Z"
+  },
+  {
+    "id": 156,
+    "sku": "GIR-016",
+    "slug": "rosedawn-knit-hat",
+    "name": "RoseDawn Knit Hat",
+    "brand": "BloomKids",
+    "description": "A soft ribbed beanie with a removable pom-pom in pastel shades.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Girls",
+    "price": 12.99,
+    "discount_price": null,
+    "cost": 3.5,
+    "stock": 38,
+    "reorder_level": 10,
+    "variants": {
+      "colors": [
+        "Blush Pink",
+        "Lavender",
+        "Cream",
+        "Mint",
+        "Butter Yellow"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Girls knit beanie named 'RoseDawn,' pom-pom on top, soft winter background, pastel tones",
+    "dimensions": {
+      "width": 8.0,
+      "height": 2.0,
+      "depth": 8.0
+    },
+    "weight": 0.25,
+    "tags": [
+      "beanie",
+      "hat",
+      "girls",
+      "pom-pom"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.8,
+    "review_count": 354,
+    "tax_class": "standard",
+    "created_at": "2026-01-12T09:00:00Z"
+  },
+  {
+    "id": 157,
+    "sku": "GIR-017",
+    "slug": "sunpetal-sundress",
+    "name": "SunPetal Sundress",
+    "brand": "BloomKids",
+    "description": "A breezy smocked sundress with adjustable spaghetti straps and floral print.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Girls",
+    "price": 21.99,
+    "discount_price": 16.99,
+    "cost": 6.5,
+    "stock": 24,
+    "reorder_level": 6,
+    "variants": {
+      "sizes": [
+        "4T",
+        "5T",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "colors": [
+        "Yellow Floral",
+        "Pink Floral",
+        "Blue Floral"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Girls smocked sundress named 'SunPetal,' on hanger, natural summer light, floral print detail",
+    "dimensions": {
+      "width": 9.0,
+      "height": 1.5,
+      "depth": 7.0
+    },
+    "weight": 0.6,
+    "tags": [
+      "dress",
+      "sundress",
+      "girls",
+      "summer",
+      "smocked"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.6,
+    "review_count": 289,
+    "tax_class": "standard",
+    "created_at": "2026-01-14T09:00:00Z"
+  },
+  {
+    "id": 158,
+    "sku": "GIR-018",
+    "slug": "cloudstep-rain-boots",
+    "name": "CloudStep Rain Boots",
+    "brand": "BloomKids",
+    "description": "Waterproof pull-on rain boots with a cushioned insole and star-print lining.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Girls",
+    "price": 32.99,
+    "discount_price": null,
+    "cost": 10.5,
+    "stock": 20,
+    "reorder_level": 5,
+    "variants": {
+      "sizes": [
+        "1Y",
+        "2Y",
+        "3Y",
+        "4Y",
+        "5Y",
+        "6Y"
+      ],
+      "colors": [
+        "Pink/Stars",
+        "Purple/Rainbow",
+        "Teal/Clouds"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Girls rain boots named 'CloudStep,' puddle splash, star lining visible, rainy day aesthetic",
+    "dimensions": {
+      "width": 6.5,
+      "height": 9.0,
+      "depth": 9.0
+    },
+    "weight": 1.3,
+    "tags": [
+      "rain boots",
+      "waterproof",
+      "girls",
+      "stars"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.7,
+    "review_count": 312,
+    "tax_class": "standard",
+    "created_at": "2026-01-16T09:00:00Z"
+  },
+  {
+    "id": 159,
+    "sku": "GIR-019",
+    "slug": "moonglow-beaded-necklace",
+    "name": "MoonGlow Beaded Necklace",
+    "brand": "BloomKids",
+    "description": "A glow-in-the-dark beaded necklace with star and moon charms. Sold out.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Girls",
+    "price": 8.99,
+    "discount_price": null,
+    "cost": 2.0,
+    "stock": 0,
+    "reorder_level": 12,
+    "variants": {
+      "colors": [
+        "White Glow/Silver",
+        "Pink Glow/Gold",
+        "Blue Glow/Silver"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Kids necklace named 'MoonGlow,' glow in dark beads, macro shot, sparkly dark background",
+    "dimensions": {
+      "width": 4.0,
+      "height": 0.5,
+      "depth": 4.0
+    },
+    "weight": 0.1,
+    "tags": [
+      "necklace",
+      "jewelry",
+      "glow-in-dark",
+      "girls"
+    ],
+    "active": true,
+    "featured": false,
+    "rating": 4.9,
+    "review_count": 478,
+    "tax_class": "standard",
+    "created_at": "2026-01-18T09:00:00Z"
+  },
+  {
+    "id": 160,
+    "sku": "GIR-020",
+    "slug": "velvetbow-party-dress",
+    "name": "VelvetBow Party Dress",
+    "brand": "BloomKids",
+    "description": "A velvet holiday dress with a satin bow sash and full skirt lining.",
+    "category": "Fashion & Accessories",
+    "subcategory": "Girls",
+    "price": 38.99,
+    "discount_price": null,
+    "cost": 12.0,
+    "stock": 14,
+    "reorder_level": 4,
+    "variants": {
+      "sizes": [
+        "4T",
+        "5T",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "colors": [
+        "Burgundy",
+        "Navy",
+        "Emerald Green",
+        "Dusty Rose"
+      ]
+    },
+    "images": [],
+    "image_prompt": "Girls velvet party dress named 'VelvetBow,' satin bow detail, holiday editorial, rich jewel tones",
+    "dimensions": {
+      "width": 10.0,
+      "height": 2.0,
+      "depth": 8.0
+    },
+    "weight": 1.0,
+    "tags": [
+      "dress",
+      "velvet",
+      "party",
+      "girls",
+      "holiday"
+    ],
+    "active": true,
+    "featured": true,
+    "rating": 4.8,
+    "review_count": 214,
+    "tax_class": "standard",
+    "created_at": "2026-01-20T09:00:00Z"
+  }
+]

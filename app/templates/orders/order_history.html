@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}My Orders — MyStore{% endblock %}
+
+{% block content %}
+
+  <div class="page-header">
+    <h1>My Orders</h1>
+  </div>
+
+  {% if orders %}
+    <div class="flex-col">
+      {% for order in orders %}
+        <div class="card">
+          <div class="card-section flex-between">
+            <div>
+              <p class="card-title mb-1">Order #{{ order.id }}</p>
+              <p class="text-muted">{{ order.created_at.strftime('%B %d, %Y') }}</p>
+            </div>
+            <span class="status-badge status-{{ order.status }}">
+              {{ order.status | capitalize }}
+            </span>
+          </div>
+          <div class="card-section flex-between">
+            <span class="text-muted">
+              {{ order.items | length }} item{% if order.items | length != 1 %}s{% endif %}
+            </span>
+            <strong>${{ '%.2f' % (order.total / 100) }}</strong>
+          </div>
+          <div class="card-section">
+            <a class="btn btn-outline btn-sm"
+               href="{{ url_for('orders.order_detail', order_id=order.id) }}">
+              View Details
+            </a>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+  {% else %}
+    <div class="empty-state">
+      <div class="empty-icon">📦</div>
+      <h2>No orders yet</h2>
+      <p>Once you place an order it will appear here.</p>
+      <a class="btn btn-primary mt-2" href="{{ url_for('store.index') }}">Start Shopping</a>
+    </div>
+  {% endif %}
+
+{% endblock %}

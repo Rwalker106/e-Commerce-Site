@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+{% block title %}{{ 'Edit' if product else 'New' }} Product — Admin{% endblock %}
+
+{% block content %}
+
+  <div class="page-header">
+    <h1>{{ 'Edit' if product else 'New' }} Product</h1>
+  </div>
+
+  <div class="card">
+    <div class="card-section">
+      <form method="POST">
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input class="form-control" type="text" id="name" name="name"
+                   value="{{ product.name if product else '' }}" required>
+          </div>
+          <div class="form-group">
+            <label for="brand">Brand</label>
+            <input class="form-control" type="text" id="brand" name="brand"
+                   value="{{ product.brand if product else '' }}">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="sku">SKU</label>
+            <input class="form-control" type="text" id="sku" name="sku"
+                   value="{{ product.sku if product else '' }}" required>
+          </div>
+          <div class="form-group">
+            <label for="slug">Slug</label>
+            <input class="form-control" type="text" id="slug" name="slug"
+                   value="{{ product.slug if product else '' }}" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="category">Category</label>
+            <input class="form-control" type="text" id="category" name="category"
+                   value="{{ product.category if product else '' }}">
+          </div>
+          <div class="form-group">
+            <label for="subcategory">Subcategory</label>
+            <input class="form-control" type="text" id="subcategory" name="subcategory"
+                   value="{{ product.subcategory if product else '' }}">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="price">Price ($)</label>
+            <input class="form-control" type="number" id="price" name="price" step="0.01"
+                   value="{{ '%.2f' % (product.price / 100) if product else '' }}" required>
+          </div>
+          <div class="form-group">
+            <label for="stock">Stock</label>
+            <input class="form-control" type="number" id="stock" name="stock"
+                   value="{{ product.stock if product else 0 }}">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="description">Description</label>
+          <textarea class="form-control" id="description" name="description">{{ product.description if product else '' }}</textarea>
+        </div>
+
+        <div class="form-group">
+          <label class="checkbox-row">
+            <input type="checkbox" name="is_active"
+                   {{ 'checked' if not product or product.is_active else '' }}>
+            Active
+          </label>
+        </div>
+
+        <div class="d-flex gap-2">
+          <button class="btn btn-primary" type="submit">
+            {{ 'Save Changes' if product else 'Create Product' }}
+          </button>
+          <a class="btn btn-ghost" href="{{ url_for('admin.products') }}">Cancel</a>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+{% endblock %}

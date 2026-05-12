@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block title %}Products — Admin{% endblock %}
+
+{% block content %}
+
+  <div class="page-header-row">
+    <h1>Products</h1>
+    <a class="btn btn-primary btn-sm" href="{{ url_for('admin.new_product') }}">+ Add Product</a>
+  </div>
+
+  <div class="card">
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>SKU</th>
+            <th>Price</th>
+            <th>Stock</th>
+            <th>Active</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for product in products %}
+            <tr>
+              <td>{{ product.name }}</td>
+              <td class="text-muted">{{ product.sku }}</td>
+              <td>{{ product.display_price }}</td>
+              <td>{{ product.stock }}</td>
+              <td>
+                {% if product.is_active %}
+                  <span class="status-badge status-paid">Yes</span>
+                {% else %}
+                  <span class="status-badge status-failed">No</span>
+                {% endif %}
+              </td>
+              <td class="d-flex gap-2">
+                <a class="btn btn-ghost btn-sm"
+                   href="{{ url_for('admin.edit_product', product_id=product.id) }}">Edit</a>
+                {% if product.is_active %}
+                  <form method="POST"
+                        action="{{ url_for('admin.deactivate_product', product_id=product.id) }}">
+                    <button class="btn btn-danger btn-sm" type="submit">Deactivate</button>
+                  </form>
+                {% endif %}
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+{% endblock %}

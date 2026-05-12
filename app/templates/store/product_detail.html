@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% block title %}{{ product.name }} — MyStore{% endblock %}
+
+{% block content %}
+
+  <p class="breadcrumb">
+    <a href="{{ url_for('store.index') }}">Shop</a>
+    {% if product.category %} &rsaquo; <a href="{{ url_for('store.index', category=product.category) }}">{{ product.category }}</a>{% endif %}
+    {% if product.subcategory %} &rsaquo; {{ product.subcategory }}{% endif %}
+  </p>
+
+  <div class="product-detail-layout">
+
+    <!-- Image -->
+    <div class="product-detail-image">
+      {% if product.images %}
+        <img src="{{ product.images[0] }}" alt="{{ product.name }}">
+      {% else %}
+        🛍
+      {% endif %}
+    </div>
+
+    <!-- Info -->
+    <div class="product-detail-info">
+      {% if product.brand %}
+        <p class="product-brand">{{ product.brand }}</p>
+      {% endif %}
+
+      <h1 class="product-name">{{ product.name }}</h1>
+
+      {% if product.rating %}
+        <p class="product-rating">
+          <span class="star">★★★★★</span>
+          {{ '%.1f' % product.rating }} / 5.0 &nbsp;({{ product.review_count }} reviews)
+        </p>
+      {% endif %}
+
+      <div class="product-price-row">
+        {% if product.is_on_sale() %}
+          <span class="product-price-original">${{ '%.2f' % (product.price / 100) }}</span>
+          <span class="product-price-current">{{ product.display_price }}</span>
+          <span class="badge-sale">Sale</span>
+        {% else %}
+          <span class="product-price-current">{{ product.display_price }}</span>
+        {% endif %}
+      </div>
+
+      {% if product.description %}
+        <p class="product-desc">{{ product.description }}</p>
+      {% endif %}
+
+      <!-- Variants -->
+      {% if product.variants %}
+        <div>
+          {% for key, values in product.variants.items() %}
+            <p class="variant-label">{{ key | capitalize }}</p>
+            <div class="variant-pills mb-2">
+              {% for v in values %}
+                <span class="variant-pill">{{ v }}</span>
+              {% endfor %}
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      <!-- Add to cart -->
+      <form class="add-to-cart-row" method="POST"
+            action="{{ url_for('cart.add_to_cart', product_id=product.id) }}">
+        <input class="qty-input" type="number" name="quantity" value="1" min="1"
+               max="{{ product.stock }}" {% if not product.in_stock() %}disabled{% endif %}>
+        <button class="btn btn-primary" type="submit"
+                {% if not product.in_stock() %}disabled{% endif %}>
+          {% if product.in_stock() %}Add to Cart{% else %}Out of Stock{% endif %}
+        </button>
+      </form>
+
+      {% if not product.in_stock() %}
+        <p class="product-oos-msg">This item is currently out of stock.</p>
+      {% endif %}
+
+      <a class="link-back" href="{{ url_for('store.index') }}">&larr; Back to products</a>
+    </div>
+
+  </div>
+
+{% endblock %}

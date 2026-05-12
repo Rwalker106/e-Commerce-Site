@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+{% block title %}Your Cart — MyStore{% endblock %}
+
+{% block content %}
+
+  <div class="page-header">
+    <h1>Your Cart</h1>
+  </div>
+
+  {% if is_empty %}
+    <div class="empty-state">
+      <div class="empty-icon">🛒</div>
+      <h2>Your cart is empty</h2>
+      <p>Browse our products and add something you like.</p>
+      <a class="btn btn-primary mt-2" href="{{ url_for('store.index') }}">Start Shopping</a>
+    </div>
+
+  {% else %}
+    <div class="checkout-layout">
+
+      <!-- Cart items -->
+      <div class="card">
+        {% for item in items %}
+          <div class="cart-item">
+            <div class="cart-item-info">
+              <p class="cart-item-name">{{ item.product.name }}</p>
+              <p class="cart-item-unit">{{ item.product.display_price }} each</p>
+            </div>
+
+            <div class="cart-item-actions">
+              <form method="POST"
+                    action="{{ url_for('cart.update_cart', product_id=item.product.id) }}">
+                <input class="qty-input" type="number" name="quantity"
+                       value="{{ item.quantity }}" min="0"
+                       aria-label="Quantity for {{ item.product.name }}">
+                <button class="btn btn-ghost btn-sm" type="submit">Update</button>
+              </form>
+
+              <form method="POST"
+                    action="{{ url_for('cart.remove_from_cart', product_id=item.product.id) }}">
+                <button class="btn btn-danger btn-sm" type="submit">Remove</button>
+              </form>
+            </div>
+
+            <span class="cart-item-total">${{ '%.2f' % (item.line_total / 100) }}</span>
+          </div>
+        {% endfor %}
+      </div>
+
+      <!-- Summary -->
+      <div>
+        <div class="card">
+          <div class="card-section">
+            <p class="card-title">Order Summary</p>
+            <div class="total-row grand">
+              <span>Total</span>
+              <span>{{ total }}</span>
+            </div>
+          </div>
+          <div class="card-section">
+            <a class="btn btn-primary btn-full mb-1"
+               href="{{ url_for('checkout.checkout') }}">Proceed to Checkout</a>
+            <a class="btn btn-ghost btn-full"
+               href="{{ url_for('store.index') }}">Continue Shopping</a>
+          </div>
+          <div class="card-section">
+            <form method="POST" action="{{ url_for('cart.clear_cart') }}">
+              <button class="btn btn-danger btn-full" type="submit">Clear Cart</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  {% endif %}
+
+{% endblock %}

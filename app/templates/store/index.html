@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+{% block title %}Shop — MyStore{% endblock %}
+
+{% block content %}
+
+  <!-- Category filter pills -->
+  <div class="filter-bar">
+    <a class="filter-pill {% if not selected_category %}active{% endif %}"
+       href="{{ url_for('store.index', q=search_query) }}">
+      All
+    </a>
+    {% for cat in categories %}
+      <a class="filter-pill {% if selected_category == cat %}active{% endif %}"
+         href="{{ url_for('store.index', category=cat, q=search_query) }}">
+        {{ cat }}
+      </a>
+    {% endfor %}
+  </div>
+
+  <!-- Results summary -->
+  <div class="results-bar">
+    <span>
+      {% if search_query or selected_category %}
+        <strong>{{ products | length }}</strong> result{% if products | length != 1 %}s{% endif %}
+        {% if search_query %}for &ldquo;<strong>{{ search_query }}</strong>&rdquo;{% endif %}
+        {% if selected_category %}in <strong>{{ selected_category }}</strong>{% endif %}
+      {% else %}
+        <strong>{{ products | length }}</strong> products
+      {% endif %}
+    </span>
+    {% if search_query or selected_category %}
+      <a class="filter-pill" href="{{ url_for('store.index') }}">Clear filters</a>
+    {% endif %}
+  </div>
+
+  <!-- Product grid -->
+  {% if products %}
+    <div class="product-grid">
+      {% for product in products %}
+        <div class="product-card">
+
+          <!-- Image / placeholder -->
+          <div class="card-img">
+            {% if product.images %}
+              <img src="{{ product.images[0] }}" alt="{{ product.name }}">
+            {% else %}
+              🛍
+            {% endif %}
+          </div>
+
+          <div class="card-body">
+            {% if product.category %}
+              <span class="card-category">{{ product.subcategory or product.category }}</span>
+            {% endif %}
+            <p class="card-name">{{ product.name }}</p>
+            {% if product.brand %}
+              <p class="card-brand">{{ product.brand }}</p>
+            {% endif %}
+            {% if product.description %}
+              <p class="card-desc">{{ product.description }}</p>
+            {% endif %}
+          </div>
+
+          <div class="card-footer">
+            <div class="card-price">
+              {% if product.is_on_sale() %}
+                <span class="price-original">${{ '%.2f' % (product.price / 100) }}</span>
+                <span class="price-current">{{ product.display_price }}</span>
+                <span class="badge-sale">Sale</span>
+              {% else %}
+                <span class="price-current">{{ product.display_price }}</span>
+              {% endif %}
+              {% if not product.in_stock() %}
+                <span class="badge-oos">Out of stock</span>
+              {% endif %}
+            </div>
+            {% if product.rating %}
+              <span class="card-rating">
+                <span class="star">★</span> {{ '%.1f' % product.rating }}
+                <span>({{ product.review_count }})</span>
+              </span>
+            {% endif %}
+          </div>
+
+          <a class="btn-view" href="{{ url_for('store.product_detail', id=product.id) }}">
+            View Product
+          </a>
+
+        </div>
+      {% endfor %}
+    </div>
+
+  {% else %}
+    <div class="empty-state">
+      <div class="empty-icon">🔍</div>
+      <h2>No products found</h2>
+      <p>Try a different search term or category.</p>
+    </div>
+  {% endif %}
+
+{% endblock %}

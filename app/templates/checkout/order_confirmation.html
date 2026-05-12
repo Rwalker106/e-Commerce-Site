@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Order Confirmed — MyStore{% endblock %}
+
+{% block content %}
+
+  <div class="success-card">
+    <div class="card">
+      <div class="card-section">
+        <div class="success-icon">✅</div>
+        <h1 class="product-name mb-1">Order Confirmed!</h1>
+        <p class="text-muted mb-1">
+          Thank you for your purchase. Your order
+          <strong>#{{ order.id }}</strong> has been received.
+        </p>
+        <p class="text-muted mb-2">
+          Total charged: <strong>${{ '%.2f' % (order.total / 100) }}</strong>
+        </p>
+        <a class="btn btn-primary btn-full mb-1"
+           href="{{ url_for('orders.order_detail', order_id=order.id) }}">
+          View Order Details
+        </a>
+        <a class="btn btn-ghost btn-full"
+           href="{{ url_for('store.index') }}">
+          Continue Shopping
+        </a>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}

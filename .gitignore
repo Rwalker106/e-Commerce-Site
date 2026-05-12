@@ -1,0 +1,28 @@
+# Environment variables - Never commit these
+
+# Virtual environment and Python cache files
+.venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# database
+*.db
+*.sqlite
+*.sqlite3
+
+#Flask_Migrate (keep migrgations but not cache)
+migrations/__pycache__/
+
+# IDE
+.vscode/
+.idea/
+
+
+.env
+*.pyc
+
+instance/   
