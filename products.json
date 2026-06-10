@@ -14,7 +14,9 @@
     "stock": 42,
     "reorder_level": 10,
     "variants": null,
-    "images": [],
+    "images": [
+      "/static/images/product_images/lunaris-glow-elixir.png"
+    ],
     "image_prompt": "Luxury skincare serum bottle labeled “Lunaris Glow Elixir,” frosted lavender glass, silver dropper, soft studio lighting, premium product photography, hyper-realistic",
     "dimensions": {
       "width": 2.0,
@@ -577,7 +579,9 @@
         "Arctic White"
       ]
     },
-    "images": [],
+    "images": [
+      "/static/images/product_images/aerolens-pocket-drone.png"
+    ],
     "image_prompt": "Foldable drone named “AeroLens,” metallic finish, floating render, dramatic lighting",
     "dimensions": {
       "width": 6.0,
@@ -774,7 +778,9 @@
     "stock": 50,
     "reorder_level": 12,
     "variants": null,
-    "images": [],
+    "images": [
+      "/static/images/product_images/mossling-plush.png"
+    ],
     "image_prompt": "Cute plush toy called “Mossling,” moss texture, cozy lighting, children's product photography",
     "dimensions": {
       "width": 6.0,
@@ -1336,7 +1342,9 @@
         "Blush Pink"
       ]
     },
-    "images": [],
+    "images": [
+      "/static/images/product_images/glowglass-table-lamp.png"
+    ],
     "image_prompt": "Frosted lamp named “GlowGlass,” warm lighting, cozy interior scene",
     "dimensions": {
       "width": 7.0,
@@ -1711,7 +1719,9 @@
         "Black/Black Band"
       ]
     },
-    "images": [],
+    "images": [
+      "/static/images/product_images/glowband-smartwatch.png"
+    ],
     "image_prompt": "Rose-gold smartwatch named “GlowBand,” macro detail, tech-fashion style",
     "dimensions": {
       "width": 1.7,
@@ -2173,7 +2183,9 @@
         "Gold/Navy Band"
       ]
     },
-    "images": [],
+    "images": [
+      "/static/images/product_images/titanedge-watch.png"
+    ],
     "image_prompt": "Men's watch named “TitanEdge,” macro shot, metallic highlights",
     "dimensions": {
       "width": 1.8,
@@ -2505,7 +2517,9 @@
         "Black/Lime"
       ]
     },
-    "images": [],
+    "images": [
+      "/static/images/product_images/trailpup-sneakers.png"
+    ],
     "image_prompt": "Kids sneakers named “TrailPup,” bright accents, floating pose",
     "dimensions": {
       "width": 7.0,
@@ -2987,7 +3001,9 @@
         "Gold"
       ]
     },
-    "images": [],
+    "images": [
+      "/static/images/product_images/startwirl-skirt.png"
+    ],
     "image_prompt": "Girls tulle skirt named “StarTwirl,” sparkles, soft studio lighting, playful pastel background",
     "dimensions": {
       "width": 8.0,
@@ -3498,7 +3514,9 @@
     "stock": 20,
     "reorder_level": 6,
     "variants": null,
-    "images": [],
+    "images": [
+      "/static/images/product_images/glowrite-vitamin-c-serum.png"
+    ],
     "image_prompt": "Amber glass dropper bottle labeled 'GlowRite Vitamin C Serum,' citrus slices, bright studio lighting",
     "dimensions": {
       "width": 1.8,
@@ -3851,7 +3869,9 @@
         "Coral Red"
       ]
     },
-    "images": [],
+    "images": [
+      "/static/images/product_images/pixelpod-action-camera.png"
+    ],
     "image_prompt": "Compact action camera named 'PixelPod,' underwater shot, bubbles, adventure aesthetic",
     "dimensions": {
       "width": 2.5,
@@ -3893,7 +3913,9 @@
         "Slate Blue"
       ]
     },
-    "images": [],
+    "images": [
+      "/static/images/product_images/soundwave-over-ear-headphones.png"
+    ],
     "image_prompt": "Over-ear headphones named 'SoundWave,' floating render, dramatic lighting, premium audio style",
     "dimensions": {
       "width": 7.0,
@@ -4447,7 +4469,9 @@
     "stock": 44,
     "reorder_level": 10,
     "variants": null,
-    "images": [],
+    "images": [
+      "/static/images/product_images/cloudpuff-plush.png"
+    ],
     "image_prompt": "White cloud plush named 'CloudPuff,' sleepy face embroidery, pastel sky background",
     "dimensions": {
       "width": 9.0,
@@ -4766,7 +4790,9 @@
         "12x12"
       ]
     },
-    "images": [],
+    "images": [
+      "/static/images/product_images/verdantmoss-wall-frame.png"
+    ],
     "image_prompt": "Preserved moss wall art frame named 'VerdantMoss,' black frame, living room wall, natural light",
     "dimensions": {
       "width": 12.0,
@@ -6589,7 +6615,9 @@
         "Rainbow Mix"
       ]
     },
-    "images": [],
+    "images": [
+      "/static/images/product_images/crystalmist-hair-clip-set.png"
+    ],
     "image_prompt": "Hair clip set named 'CrystalMist,' laid out neatly, sparkle and flower detail, soft pastel background",
     "dimensions": {
       "width": 4.0,
@@ -6882,7 +6910,9 @@
         "Dusty Rose"
       ]
     },
-    "images": [],
+    "images": [
+      "/static/images/product_images/velvetbow-party-dress.png"
+    ],
     "image_prompt": "Girls velvet party dress named 'VelvetBow,' satin bow detail, holiday editorial, rich jewel tones",
     "dimensions": {
       "width": 10.0,

@@ -184,6 +184,69 @@ main { flex: 1; padding: 2rem; max-width: 1280px; margin: 0 auto; width: 100%; }
 }
 .card-img img { width: 100%; height: 100%; object-fit: cover; }
 
+/* Placeholder styling with beautiful gradients and SVG styling */
+.placeholder-svg-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  text-align: center;
+  gap: 0.35rem;
+  user-select: none;
+}
+.placeholder-svg-wrap svg {
+  width: 40px;
+  height: 40px;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+  transition: transform 0.3s ease;
+}
+.product-card:hover .placeholder-svg-wrap svg {
+  transform: scale(1.1) translateY(-2px);
+}
+.placeholder-label {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.85;
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.placeholder-cosmetics {
+  background: linear-gradient(135deg, #fbcfe8 0%, #e9d5ff 100%);
+  fill: #a21caf;
+  color: #a21caf;
+}
+.placeholder-electronics {
+  background: linear-gradient(135deg, #1e293b 0%, #0891b2 100%);
+  fill: #38bdf8;
+  color: #38bdf8;
+}
+.placeholder-toys {
+  background: linear-gradient(135deg, #fef08a 0%, #f97316 100%);
+  fill: #ea580c;
+  color: #ea580c;
+}
+.placeholder-home {
+  background: linear-gradient(135deg, #ecfdf5 0%, #059669 100%);
+  fill: #047857;
+  color: #047857;
+}
+.placeholder-fashion {
+  background: linear-gradient(135deg, #ffedd5 0%, #db2777 100%);
+  fill: #fbcfe8;
+  color: #fbcfe8;
+}
+.placeholder-default {
+  background: linear-gradient(135deg, #e2e8f0 0%, #94a3b8 100%);
+  fill: #475569;
+  color: #475569;
+}
+
 .card-body {
   padding: 1rem;
   flex: 1;
@@ -484,6 +547,14 @@ tbody tr:hover { background: #f8fafc; }
   overflow: hidden;
 }
 .product-detail-image img { width: 100%; height: 100%; object-fit: cover; }
+.product-detail-image .placeholder-svg-wrap svg {
+  width: 96px;
+  height: 96px;
+  margin-bottom: 0.5rem;
+}
+.product-detail-image .placeholder-label {
+  font-size: 0.9rem;
+}
 .product-detail-info { display: flex; flex-direction: column; gap: .75rem; }
 .product-price-row { display: flex; align-items: baseline; gap: .6rem; flex-wrap: wrap; }
 .product-price-current { font-size: 1.6rem; font-weight: 700; }

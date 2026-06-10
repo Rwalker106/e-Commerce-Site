@@ -1,6 +1,53 @@
 {% extends "base.html" %}
 {% block title %}{{ product.name }} — MyStore{% endblock %}
 
+{% macro render_placeholder(product) %}
+  {% set cat = product.category %}
+  {% if cat == 'Cosmetics & Skincare' %}
+    <div class="placeholder-svg-wrap placeholder-cosmetics">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M19 12h-2v-2a1 1 0 0 0-1-1h-1V5h1a1 1 0 0 0 0-2H8a1 1 0 0 0 0 2h1v4H8a1 1 0 0 0-1 1v2H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2ZM11 5h2v4h-2Zm8 15H5v-6h14Z"/>
+      </svg>
+      <span class="placeholder-label">Skincare</span>
+    </div>
+  {% elif cat == 'Electronics & Gadgets' %}
+    <div class="placeholder-svg-wrap placeholder-electronics">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M18 10h-2V7a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3H6a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h2v2a1 1 0 0 0 2 0v-2h4v2a1 1 0 0 0 2 0v-2h2a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm0 6H6v-4h12Z"/>
+      </svg>
+      <span class="placeholder-label">Electronics</span>
+    </div>
+  {% elif cat == 'Toys & Collectibles' %}
+    <div class="placeholder-svg-wrap placeholder-toys">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2a5 5 0 0 0-5 5v1.1A4 4 0 0 0 4 12v4a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4v-4a4 4 0 0 0-3-3.9V7a5 5 0 0 0-5-5Zm-2 9a1.5 1.5 0 1 1 1.5-1.5A1.5 1.5 0 0 1 10 11Zm4 0a1.5 1.5 0 1 1 1.5-1.5A1.5 1.5 0 0 1 14 11Z"/>
+      </svg>
+      <span class="placeholder-label">Toys</span>
+    </div>
+  {% elif cat == 'Home Goods & Decor' %}
+    <div class="placeholder-svg-wrap placeholder-home">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2a1 1 0 0 0-1 1v2.05A7 7 0 0 0 5 12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1 7 7 0 0 0-6-6.95V3a1 1 0 0 0-1-1Zm-5.87 9A5 5 0 0 1 11 7.18V11ZM13 7.18A5 5 0 0 1 17.87 11H13ZM12 15a3 3 0 0 0-3 3v3a1 1 0 0 0 2 0v-3h2v3a1 1 0 0 0 2 0v-3a3 3 0 0 0-3-3Z"/>
+      </svg>
+      <span class="placeholder-label">Home Decor</span>
+    </div>
+  {% elif cat == 'Fashion & Accessories' %}
+    <div class="placeholder-svg-wrap placeholder-fashion">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2a3 3 0 0 0-3 3c0 .54.15 1.05.41 1.48L3.25 12A1.5 1.5 0 0 0 4.29 14.5H20a1.5 1.5 0 0 0 1.04-2.5L14.6 6.48c.25-.43.4-.94.4-1.48a3 3 0 0 0-3-3Zm0 1.5a1.5 1.5 0 0 1 1.5 1.5c0 .48-.23.9-.58 1.18l-.92.74v1.58h-2V7.42l-.92-.74A1.5 1.5 0 0 1 10.5 5a1.5 1.5 0 0 1 1.5-1.5Zm-5.32 8h10.64l3.18 3.5H3.5l3.18-3.5Z"/>
+      </svg>
+      <span class="placeholder-label">Fashion</span>
+    </div>
+  {% else %}
+    <div class="placeholder-svg-wrap placeholder-default">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M19 6h-2c0-2.76-2.24-5-5-5S7 3.24 7 6H5c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-7-3c1.66 0 3 1.34 3 3H9c0-1.66 1.34-3 3-3zm7 17H5V8h14v12z"/>
+      </svg>
+      <span class="placeholder-label">Product</span>
+    </div>
+  {% endif %}
+{% endmacro %}
+
 {% block content %}
 
   <p class="breadcrumb">
@@ -16,7 +63,7 @@
       {% if product.images %}
         <img src="{{ product.images[0] }}" alt="{{ product.name }}">
       {% else %}
-        🛍
+        {{ render_placeholder(product) }}
       {% endif %}
     </div>
 
